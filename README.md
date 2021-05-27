@@ -19,5 +19,4 @@
 * [fritzing](https://fritzing.org/)
 * [Raspberry Pi 官網](https://www.raspberrypi.org/)
 * [VNC 設定](https://howtoraspberrypi.com/raspberry-pi-vnc/?fbclid=IwAR0vDVDMJFJWky1wy082jEoCH_y6x195ZtGskCxzI9mSW4vCQbsjX6YtKSc)
-* [關於 "Host Key Verification Failed"](https://askubuntu.com/questions/45679/ssh-connection-problem-with-host-key-verification-failed-error)
 * [HiveMQ](https://www.hivemq.com/)
