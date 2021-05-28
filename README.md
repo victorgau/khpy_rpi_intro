@@ -3,7 +3,7 @@
 ### 課程內容：
 
 * 課程簡介
-* 燒錄OS
+* 燒錄 OS
 * Headless Connection
 * SSH簡介 (使用內建SSH或putty)
 * 遠端開發 (Remote Development)
