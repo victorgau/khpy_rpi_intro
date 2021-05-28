@@ -16,7 +16,10 @@
 
 ### 相關連結：
 
-* [fritzing](https://fritzing.org/)
 * [Raspberry Pi 官網](https://www.raspberrypi.org/)
-* [VNC 設定](https://howtoraspberrypi.com/raspberry-pi-vnc/?fbclid=IwAR0vDVDMJFJWky1wy082jEoCH_y6x195ZtGskCxzI9mSW4vCQbsjX6YtKSc)
+* [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
+* [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)
+* [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
+* [Chrome 上面之後不會有 VNC Viewer App 囉！](https://help.realvnc.com/hc/en-us/articles/360017492037-Product-End-of-Life-EoL-notice-#vnc-viewer-plus-0-0)
 * [HiveMQ](https://www.hivemq.com/)
+* [fritzing](https://fritzing.org/)
