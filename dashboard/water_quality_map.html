@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_732d433bb1224ae08aa350a2f2c230ed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_732d433bb1224ae08aa350a2f2c230ed" ></div>
+        
+</body>
+<script>    
+    
+            var map_732d433bb1224ae08aa350a2f2c230ed = L.map(
+                "map_732d433bb1224ae08aa350a2f2c230ed",
+                {
+                    center: [22.8833556, 120.1976284],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_125a3de93b4b44c99665860d45cd62dd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+            var marker_5aa2f74e92d34ef183136d55de008d2f = L.marker(
+                [22.8833556, 120.1976284],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+            var icon_d6befd0d4a4b4682a415d224b3e7b3b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5aa2f74e92d34ef183136d55de008d2f.setIcon(icon_d6befd0d4a4b4682a415d224b3e7b3b5);
+        
+    
+        var popup_d8eb34d1d91242ed9a0f52cdb6740b27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fed468a6fe59411d8869939aad1fc23f = $(`<div id="html_fed468a6fe59411d8869939aad1fc23f" style="width: 100.0%; height: 100.0%;"><div style='white-space:nowrap'>茄萣濕地</div></div>`)[0];
+            popup_d8eb34d1d91242ed9a0f52cdb6740b27.setContent(html_fed468a6fe59411d8869939aad1fc23f);
+        
+
+        marker_5aa2f74e92d34ef183136d55de008d2f.bindPopup(popup_d8eb34d1d91242ed9a0f52cdb6740b27)
+        ;
+
+        
+    
+    
+            var marker_2026bd86ed48409f8e7e69825f2ce2c2 = L.marker(
+                [22.883181033424155, 120.2022756363909],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_91e74b6d79734fd1a17e7f516d8d35c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_088f18029dca41c797716fa06b7e3213 = $(`<div id="html_088f18029dca41c797716fa06b7e3213" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A32</td></tr><tr><td>EVENTDATE</td><td>20160301</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.202</td></tr><tr><td>LATITUDE</td><td>22.883555</td></tr><tr><td>Temp</td><td>25.4</td></tr><tr><td>pH</td><td>8.2</td></tr><tr><td>NH3_N</td><td>0.1</td></tr><tr><td>SS</td><td>9.5</td></tr><tr><td>BOD</td><td>6.6</td></tr><tr><td>COD</td><td>15</td></tr><tr><td>NO3_N</td><td>0</td></tr><tr><td>T_P</td><td>6</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_91e74b6d79734fd1a17e7f516d8d35c2.setContent(html_088f18029dca41c797716fa06b7e3213);
+        
+
+        marker_2026bd86ed48409f8e7e69825f2ce2c2.bindPopup(popup_91e74b6d79734fd1a17e7f516d8d35c2)
+        ;
+
+        
+    
+    
+            var marker_964f420e184847af8775906d13a0c228 = L.marker(
+                [22.883279510015676, 120.2015093705822],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_cab4748406ec492084e6805da685c845 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a6f43eb0f44fb1b238d3bc5b7c0abf = $(`<div id="html_55a6f43eb0f44fb1b238d3bc5b7c0abf" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A32</td></tr><tr><td>EVENTDATE</td><td>20160501</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.202</td></tr><tr><td>LATITUDE</td><td>22.883555</td></tr><tr><td>Temp</td><td>29.8</td></tr><tr><td>pH</td><td>9.02</td></tr><tr><td>NH3_N</td><td>0.21</td></tr><tr><td>SS</td><td>2</td></tr><tr><td>BOD</td><td>1.7</td></tr><tr><td>COD</td><td>59</td></tr><tr><td>NO3_N</td><td>0</td></tr><tr><td>T_P</td><td>0.48</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_cab4748406ec492084e6805da685c845.setContent(html_55a6f43eb0f44fb1b238d3bc5b7c0abf);
+        
+
+        marker_964f420e184847af8775906d13a0c228.bindPopup(popup_cab4748406ec492084e6805da685c845)
+        ;
+
+        
+    
+    
+            var marker_2dbdf1bb7aea42c3993279f4beb7bf4c = L.marker(
+                [22.883245724854444, 120.20206775228318],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_14fefcce5fdf416b94921a1b79de0c97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b99ec7c426d4882a40b1e620f98967f = $(`<div id="html_6b99ec7c426d4882a40b1e620f98967f" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A32</td></tr><tr><td>EVENTDATE</td><td>20160801</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.202</td></tr><tr><td>LATITUDE</td><td>22.883555</td></tr><tr><td>Temp</td><td>31.8</td></tr><tr><td>pH</td><td>9.35</td></tr><tr><td>NH3_N</td><td>0.14</td></tr><tr><td>SS</td><td>8</td></tr><tr><td>BOD</td><td>4.71</td></tr><tr><td>COD</td><td>36</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>0.35</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_14fefcce5fdf416b94921a1b79de0c97.setContent(html_6b99ec7c426d4882a40b1e620f98967f);
+        
+
+        marker_2dbdf1bb7aea42c3993279f4beb7bf4c.bindPopup(popup_14fefcce5fdf416b94921a1b79de0c97)
+        ;
+
+        
+    
+    
+            var marker_20cf4f98b0764597810c6cfbb2af400d = L.marker(
+                [22.883464137332908, 120.20160998959368],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_9ed26891a8934b468889dfabb2f70164 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d512bf7cc8f402ca1eb61502489bee5 = $(`<div id="html_8d512bf7cc8f402ca1eb61502489bee5" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A32</td></tr><tr><td>EVENTDATE</td><td>20161001</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.202</td></tr><tr><td>LATITUDE</td><td>22.883555</td></tr><tr><td>Temp</td><td>30.1</td></tr><tr><td>pH</td><td>8.92</td></tr><tr><td>NH3_N</td><td>0.13</td></tr><tr><td>SS</td><td>4</td></tr><tr><td>BOD</td><td>6.21</td></tr><tr><td>COD</td><td>12</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>0.29</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_9ed26891a8934b468889dfabb2f70164.setContent(html_8d512bf7cc8f402ca1eb61502489bee5);
+        
+
+        marker_20cf4f98b0764597810c6cfbb2af400d.bindPopup(popup_9ed26891a8934b468889dfabb2f70164)
+        ;
+
+        
+    
+    
+            var marker_29e135364e32426eb962b459c487a1fd = L.marker(
+                [22.890284198330455, 120.19740610100422],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_bc0db593ad0a491f8ea07f8db3500652 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eaf4668983a45bdb35a1acd8924c644 = $(`<div id="html_9eaf4668983a45bdb35a1acd8924c644" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A31</td></tr><tr><td>EVENTDATE</td><td>20160301</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19713</td></tr><tr><td>LATITUDE</td><td>22.890361</td></tr><tr><td>Temp</td><td>27.6</td></tr><tr><td>pH</td><td>8.7</td></tr><tr><td>NH3_N</td><td>0.1</td></tr><tr><td>SS</td><td>0.1</td></tr><tr><td>BOD</td><td>15.8</td></tr><tr><td>COD</td><td>18</td></tr><tr><td>NO3_N</td><td>0.3</td></tr><tr><td>T_P</td><td>3</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_bc0db593ad0a491f8ea07f8db3500652.setContent(html_9eaf4668983a45bdb35a1acd8924c644);
+        
+
+        marker_29e135364e32426eb962b459c487a1fd.bindPopup(popup_bc0db593ad0a491f8ea07f8db3500652)
+        ;
+
+        
+    
+    
+            var marker_a9c0a33c06e642b0852caceb53a78772 = L.marker(
+                [22.889934172670003, 120.19758100224142],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_076ffbbf759e4485a64d64b927386f6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bfd0679954f4ebd9fcf598b2b5aac76 = $(`<div id="html_6bfd0679954f4ebd9fcf598b2b5aac76" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A31</td></tr><tr><td>EVENTDATE</td><td>20160501</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19713</td></tr><tr><td>LATITUDE</td><td>22.890361</td></tr><tr><td>Temp</td><td>34</td></tr><tr><td>pH</td><td>7.59</td></tr><tr><td>NH3_N</td><td>0.45</td></tr><tr><td>SS</td><td>71.5</td></tr><tr><td>BOD</td><td>1.9</td></tr><tr><td>COD</td><td>62</td></tr><tr><td>NO3_N</td><td>0.065</td></tr><tr><td>T_P</td><td>0.45</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_076ffbbf759e4485a64d64b927386f6b.setContent(html_6bfd0679954f4ebd9fcf598b2b5aac76);
+        
+
+        marker_a9c0a33c06e642b0852caceb53a78772.bindPopup(popup_076ffbbf759e4485a64d64b927386f6b)
+        ;
+
+        
+    
+    
+            var marker_b0d73afb892143d8825b7c3c7e588de2 = L.marker(
+                [22.890126007120454, 120.19679220687172],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_cfd5423b533948079bc99e4e68bc9b73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de8f79d1b6054ef38b7b30e3a2ce5250 = $(`<div id="html_de8f79d1b6054ef38b7b30e3a2ce5250" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A31</td></tr><tr><td>EVENTDATE</td><td>20160801</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19713</td></tr><tr><td>LATITUDE</td><td>22.890361</td></tr><tr><td>Temp</td><td>33.1</td></tr><tr><td>pH</td><td>8.47</td></tr><tr><td>NH3_N</td><td>0.22</td></tr><tr><td>SS</td><td>20</td></tr><tr><td>BOD</td><td>6.27</td></tr><tr><td>COD</td><td>52</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>0.37</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_cfd5423b533948079bc99e4e68bc9b73.setContent(html_de8f79d1b6054ef38b7b30e3a2ce5250);
+        
+
+        marker_b0d73afb892143d8825b7c3c7e588de2.bindPopup(popup_cfd5423b533948079bc99e4e68bc9b73)
+        ;
+
+        
+    
+    
+            var marker_b787705a0a0d4deca39886c57e392b10 = L.marker(
+                [22.8901056766896, 120.19730449193595],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_2cd2189f8f7045489e6f0aee4fe00aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbabb686fb29493b945efad7f191d8f3 = $(`<div id="html_dbabb686fb29493b945efad7f191d8f3" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A31</td></tr><tr><td>EVENTDATE</td><td>20161001</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19713</td></tr><tr><td>LATITUDE</td><td>22.890361</td></tr><tr><td>Temp</td><td>31.7</td></tr><tr><td>pH</td><td>8.5</td></tr><tr><td>NH3_N</td><td>0.12</td></tr><tr><td>SS</td><td>24.5</td></tr><tr><td>BOD</td><td>5.7</td></tr><tr><td>COD</td><td>1</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>0.28</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_2cd2189f8f7045489e6f0aee4fe00aa4.setContent(html_dbabb686fb29493b945efad7f191d8f3);
+        
+
+        marker_b787705a0a0d4deca39886c57e392b10.bindPopup(popup_2cd2189f8f7045489e6f0aee4fe00aa4)
+        ;
+
+        
+    
+    
+            var marker_c41cc93ebd7a4ecfa5888deb1e01c251 = L.marker(
+                [22.87730228143994, 120.19375212219983],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_5245856683f046c2ae978a2c862f7cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d5744ddf149401780bd71ed236d1d69 = $(`<div id="html_1d5744ddf149401780bd71ed236d1d69" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20160301</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19358</td></tr><tr><td>LATITUDE</td><td>22.8775</td></tr><tr><td>Temp</td><td>25.6</td></tr><tr><td>pH</td><td>8.1</td></tr><tr><td>NH3_N</td><td>2.7</td></tr><tr><td>SS</td><td>62</td></tr><tr><td>BOD</td><td>16</td></tr><tr><td>COD</td><td>205</td></tr><tr><td>NO3_N</td><td>0.1</td></tr><tr><td>T_P</td><td>1.7</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_5245856683f046c2ae978a2c862f7cfd.setContent(html_1d5744ddf149401780bd71ed236d1d69);
+        
+
+        marker_c41cc93ebd7a4ecfa5888deb1e01c251.bindPopup(popup_5245856683f046c2ae978a2c862f7cfd)
+        ;
+
+        
+    
+    
+            var marker_c97d90811aaf4a9185f54dcc0a2f602a = L.marker(
+                [22.877669416684526, 120.19328903237867],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_d1e850b3c8824eb2b1eb0401907ab366 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_417029c31743438cb08aafc2d0925c68 = $(`<div id="html_417029c31743438cb08aafc2d0925c68" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20160501</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19358</td></tr><tr><td>LATITUDE</td><td>22.8775</td></tr><tr><td>Temp</td><td>31.4</td></tr><tr><td>pH</td><td>7.52</td></tr><tr><td>NH3_N</td><td>1.98</td></tr><tr><td>SS</td><td>27</td></tr><tr><td>BOD</td><td>5.91</td></tr><tr><td>COD</td><td>67</td></tr><tr><td>NO3_N</td><td>0.13</td></tr><tr><td>T_P</td><td>1.42</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_d1e850b3c8824eb2b1eb0401907ab366.setContent(html_417029c31743438cb08aafc2d0925c68);
+        
+
+        marker_c97d90811aaf4a9185f54dcc0a2f602a.bindPopup(popup_d1e850b3c8824eb2b1eb0401907ab366)
+        ;
+
+        
+    
+    
+            var marker_d258c0c6a0074e3db05b0e354042fbcf = L.marker(
+                [22.877200199434085, 120.1935073868831],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_2f94479104a04748b795c163f8866e0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0bd302a20074328a872ff7a236f14cd = $(`<div id="html_f0bd302a20074328a872ff7a236f14cd" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20160801</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19358</td></tr><tr><td>LATITUDE</td><td>22.8775</td></tr><tr><td>Temp</td><td>31.8</td></tr><tr><td>pH</td><td>7.95</td></tr><tr><td>NH3_N</td><td>2.58</td></tr><tr><td>SS</td><td>71</td></tr><tr><td>BOD</td><td>4.11</td></tr><tr><td>COD</td><td>82</td></tr><tr><td>NO3_N</td><td>0.18</td></tr><tr><td>T_P</td><td>0.96</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_2f94479104a04748b795c163f8866e0d.setContent(html_f0bd302a20074328a872ff7a236f14cd);
+        
+
+        marker_d258c0c6a0074e3db05b0e354042fbcf.bindPopup(popup_2f94479104a04748b795c163f8866e0d)
+        ;
+
+        
+    
+    
+            var marker_8e25abfd777648a0a57d5140138cc674 = L.marker(
+                [22.877970500066304, 120.19380638315403],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_e39d96488f424f9180f68353a24754a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f81264fbb8d4b6baccfc775156f609f = $(`<div id="html_6f81264fbb8d4b6baccfc775156f609f" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20161001</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19358</td></tr><tr><td>LATITUDE</td><td>22.8775</td></tr><tr><td>Temp</td><td>32.6</td></tr><tr><td>pH</td><td>7.22</td></tr><tr><td>NH3_N</td><td>1.52</td></tr><tr><td>SS</td><td>62</td></tr><tr><td>BOD</td><td>11.73</td></tr><tr><td>COD</td><td>99</td></tr><tr><td>NO3_N</td><td>0.25</td></tr><tr><td>T_P</td><td>1.17</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_e39d96488f424f9180f68353a24754a0.setContent(html_6f81264fbb8d4b6baccfc775156f609f);
+        
+
+        marker_8e25abfd777648a0a57d5140138cc674.bindPopup(popup_e39d96488f424f9180f68353a24754a0)
+        ;
+
+        
+    
+    
+            var marker_8ee9bb83493343b2a37badbd02b9fb58 = L.marker(
+                [22.88574965903572, 120.19460158410939],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_bf2442cd77ba43c4b01cfe28e5901eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cefcc9b560964fd4893a26a1bae4ed74 = $(`<div id="html_cefcc9b560964fd4893a26a1bae4ed74" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20160301</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19438</td></tr><tr><td>LATITUDE</td><td>22.885777</td></tr><tr><td>Temp</td><td>26.6</td></tr><tr><td>pH</td><td>8.2</td></tr><tr><td>NH3_N</td><td>2</td></tr><tr><td>SS</td><td>26</td></tr><tr><td>BOD</td><td>10</td></tr><tr><td>COD</td><td>15</td></tr><tr><td>NO3_N</td><td>0</td></tr><tr><td>T_P</td><td>1.6</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_bf2442cd77ba43c4b01cfe28e5901eb8.setContent(html_cefcc9b560964fd4893a26a1bae4ed74);
+        
+
+        marker_8ee9bb83493343b2a37badbd02b9fb58.bindPopup(popup_bf2442cd77ba43c4b01cfe28e5901eb8)
+        ;
+
+        
+    
+    
+            var marker_0d472d34145349ee8b15b4b174ff5666 = L.marker(
+                [22.88612317322544, 120.19447230990184],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_3d24fda1663c4fbeab275de2619308de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0104358a995342688005df96555c8b97 = $(`<div id="html_0104358a995342688005df96555c8b97" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20160501</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19438</td></tr><tr><td>LATITUDE</td><td>22.885777</td></tr><tr><td>Temp</td><td>30.5</td></tr><tr><td>pH</td><td>8.41</td></tr><tr><td>NH3_N</td><td>0.5</td></tr><tr><td>SS</td><td>17</td></tr><tr><td>BOD</td><td>2.8</td></tr><tr><td>COD</td><td>40</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>1.52</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_3d24fda1663c4fbeab275de2619308de.setContent(html_0104358a995342688005df96555c8b97);
+        
+
+        marker_0d472d34145349ee8b15b4b174ff5666.bindPopup(popup_3d24fda1663c4fbeab275de2619308de)
+        ;
+
+        
+    
+    
+            var marker_2c2c431b26484858b6c24105af484791 = L.marker(
+                [22.88595986566047, 120.19430021960603],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_08fe9fadf26942a88ba8143e1d8cfa43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48a71de7525c4b29bd46c736949145a0 = $(`<div id="html_48a71de7525c4b29bd46c736949145a0" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20160801</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19438</td></tr><tr><td>LATITUDE</td><td>22.885777</td></tr><tr><td>Temp</td><td>32.6</td></tr><tr><td>pH</td><td>8.78</td></tr><tr><td>NH3_N</td><td>0.57</td></tr><tr><td>SS</td><td>57.5</td></tr><tr><td>BOD</td><td>17.64</td></tr><tr><td>COD</td><td>118</td></tr><tr><td>NO3_N</td><td>0.03</td></tr><tr><td>T_P</td><td>2.01</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_08fe9fadf26942a88ba8143e1d8cfa43.setContent(html_48a71de7525c4b29bd46c736949145a0);
+        
+
+        marker_2c2c431b26484858b6c24105af484791.bindPopup(popup_08fe9fadf26942a88ba8143e1d8cfa43)
+        ;
+
+        
+    
+    
+            var marker_8e49465d9cbe4611a8890e844cc19193 = L.marker(
+                [22.885958952004582, 120.1947138798035],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_026043e806cb4406ae9a9190649f2926 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abda9634e1fe42caab294d3324eb2d7c = $(`<div id="html_abda9634e1fe42caab294d3324eb2d7c" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20161001</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19438</td></tr><tr><td>LATITUDE</td><td>22.885777</td></tr><tr><td>Temp</td><td>30.5</td></tr><tr><td>pH</td><td>8.72</td></tr><tr><td>NH3_N</td><td>0.29</td></tr><tr><td>SS</td><td>18.5</td></tr><tr><td>BOD</td><td>20.8</td></tr><tr><td>COD</td><td>69</td></tr><tr><td>NO3_N</td><td>0.12</td></tr><tr><td>T_P</td><td>1.2</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_026043e806cb4406ae9a9190649f2926.setContent(html_abda9634e1fe42caab294d3324eb2d7c);
+        
+
+        marker_8e49465d9cbe4611a8890e844cc19193.bindPopup(popup_026043e806cb4406ae9a9190649f2926)
+        ;
+
+        
+    
+    
+            var marker_f5f95254e737458c8ac38bc079103128 = L.marker(
+                [22.88971462395566, 120.19463266778442],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_be9def5b6cfa492bafbd7400197d7164 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59d5399fafcb438c9be67d635fac06fa = $(`<div id="html_59d5399fafcb438c9be67d635fac06fa" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B3</td></tr><tr><td>EVENTDATE</td><td>20160301</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19511</td></tr><tr><td>LATITUDE</td><td>22.889944</td></tr><tr><td>Temp</td><td>30.1</td></tr><tr><td>pH</td><td>8.1</td></tr><tr><td>NH3_N</td><td>0.1</td></tr><tr><td>SS</td><td>80.5</td></tr><tr><td>BOD</td><td>7.9</td></tr><tr><td>COD</td><td>130</td></tr><tr><td>NO3_N</td><td>0</td></tr><tr><td>T_P</td><td>1.5</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_be9def5b6cfa492bafbd7400197d7164.setContent(html_59d5399fafcb438c9be67d635fac06fa);
+        
+
+        marker_f5f95254e737458c8ac38bc079103128.bindPopup(popup_be9def5b6cfa492bafbd7400197d7164)
+        ;
+
+        
+    
+    
+            var marker_023cbad8d450435386acc9ba13d4b038 = L.marker(
+                [22.890229984581868, 120.19541858117425],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_c5b9dce5935b4422a0568970b392308b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef121afb27af49989a7b820d78f57e21 = $(`<div id="html_ef121afb27af49989a7b820d78f57e21" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B3</td></tr><tr><td>EVENTDATE</td><td>20160501</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19511</td></tr><tr><td>LATITUDE</td><td>22.889944</td></tr><tr><td>Temp</td><td>34.3</td></tr><tr><td>pH</td><td>8.86</td></tr><tr><td>NH3_N</td><td>0.38</td></tr><tr><td>SS</td><td>23.5</td></tr><tr><td>BOD</td><td>4.86</td></tr><tr><td>COD</td><td>46</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>0.5</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_c5b9dce5935b4422a0568970b392308b.setContent(html_ef121afb27af49989a7b820d78f57e21);
+        
+
+        marker_023cbad8d450435386acc9ba13d4b038.bindPopup(popup_c5b9dce5935b4422a0568970b392308b)
+        ;
+
+        
+    
+    
+            var marker_52691494007a4a569d567fcefb7529ca = L.marker(
+                [22.890136448892772, 120.19519865364538],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_fc887e83485b438ca5d7cf331359fdfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7328cad1142148928d94042926240775 = $(`<div id="html_7328cad1142148928d94042926240775" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B3</td></tr><tr><td>EVENTDATE</td><td>20160801</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19511</td></tr><tr><td>LATITUDE</td><td>22.889944</td></tr><tr><td>Temp</td><td>33.2</td></tr><tr><td>pH</td><td>8.5</td></tr><tr><td>NH3_N</td><td>0.2</td></tr><tr><td>SS</td><td>35</td></tr><tr><td>BOD</td><td>5.36</td></tr><tr><td>COD</td><td>58</td></tr><tr><td>NO3_N</td><td>0.03</td></tr><tr><td>T_P</td><td>0.61</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_fc887e83485b438ca5d7cf331359fdfd.setContent(html_7328cad1142148928d94042926240775);
+        
+
+        marker_52691494007a4a569d567fcefb7529ca.bindPopup(popup_fc887e83485b438ca5d7cf331359fdfd)
+        ;
+
+        
+    
+    
+            var marker_be80590bb9704f0486d79ef968dff2a6 = L.marker(
+                [22.889916701559926, 120.19517398626795],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_f646d82c65a34461b7f58d1a18766205 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_033baf160061411292d898a73f7b690e = $(`<div id="html_033baf160061411292d898a73f7b690e" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B3</td></tr><tr><td>EVENTDATE</td><td>20161001</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19511</td></tr><tr><td>LATITUDE</td><td>22.889944</td></tr><tr><td>Temp</td><td>31.1</td></tr><tr><td>pH</td><td>8.4</td></tr><tr><td>NH3_N</td><td>0.16</td></tr><tr><td>SS</td><td>27.5</td></tr><tr><td>BOD</td><td>4.43</td></tr><tr><td>COD</td><td>25</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>0.36</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_f646d82c65a34461b7f58d1a18766205.setContent(html_033baf160061411292d898a73f7b690e);
+        
+
+        marker_be80590bb9704f0486d79ef968dff2a6.bindPopup(popup_f646d82c65a34461b7f58d1a18766205)
+        ;
+
+        
+    
+    
+            var marker_82ea5a7491d747cfbbac92daeee14c0c = L.marker(
+                [22.88471869810685, 120.1923749924876],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_1641ed4b2c4949efb49abbe89f2f2b95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_788b6f10a0bd445e9d95178bdc70bdae = $(`<div id="html_788b6f10a0bd445e9d95178bdc70bdae" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20160301</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19188</td></tr><tr><td>LATITUDE</td><td>22.884361</td></tr><tr><td>Temp</td><td>26.6</td></tr><tr><td>pH</td><td>8.2</td></tr><tr><td>NH3_N</td><td>1.7</td></tr><tr><td>SS</td><td>16.5</td></tr><tr><td>BOD</td><td>8</td></tr><tr><td>COD</td><td>80</td></tr><tr><td>NO3_N</td><td>0</td></tr><tr><td>T_P</td><td>1.5</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_1641ed4b2c4949efb49abbe89f2f2b95.setContent(html_788b6f10a0bd445e9d95178bdc70bdae);
+        
+
+        marker_82ea5a7491d747cfbbac92daeee14c0c.bindPopup(popup_1641ed4b2c4949efb49abbe89f2f2b95)
+        ;
+
+        
+    
+    
+            var marker_16f21db243904de096a6ab26fee42501 = L.marker(
+                [22.88453819920275, 120.19229880143594],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_9f0b0b6f01cc4cf9b4cbb7158353211c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f6ac851aa3349f482b80a44ffb30742 = $(`<div id="html_2f6ac851aa3349f482b80a44ffb30742" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20160501</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19188</td></tr><tr><td>LATITUDE</td><td>22.884361</td></tr><tr><td>Temp</td><td>31.6</td></tr><tr><td>pH</td><td>8.34</td></tr><tr><td>NH3_N</td><td>0.41</td></tr><tr><td>SS</td><td>26</td></tr><tr><td>BOD</td><td>6.12</td></tr><tr><td>COD</td><td>58</td></tr><tr><td>NO3_N</td><td>0.02</td></tr><tr><td>T_P</td><td>0.43</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_9f0b0b6f01cc4cf9b4cbb7158353211c.setContent(html_2f6ac851aa3349f482b80a44ffb30742);
+        
+
+        marker_16f21db243904de096a6ab26fee42501.bindPopup(popup_9f0b0b6f01cc4cf9b4cbb7158353211c)
+        ;
+
+        
+    
+    
+            var marker_110092380f2246e68f25e96d682400ad = L.marker(
+                [22.884601935233498, 120.19144314475321],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_df692371e4474817acdbf6e434e8e22c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaeea9a316b4409f92020f8e69eb9649 = $(`<div id="html_eaeea9a316b4409f92020f8e69eb9649" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20160801</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19188</td></tr><tr><td>LATITUDE</td><td>22.884361</td></tr><tr><td>Temp</td><td>32.1</td></tr><tr><td>pH</td><td>8.45</td></tr><tr><td>NH3_N</td><td>0.21</td></tr><tr><td>SS</td><td>7.5</td></tr><tr><td>BOD</td><td>4.39</td></tr><tr><td>COD</td><td>46</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>0.41</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_df692371e4474817acdbf6e434e8e22c.setContent(html_eaeea9a316b4409f92020f8e69eb9649);
+        
+
+        marker_110092380f2246e68f25e96d682400ad.bindPopup(popup_df692371e4474817acdbf6e434e8e22c)
+        ;
+
+        
+    
+    
+            var marker_fe755ac7afbe4685a0b972258932c950 = L.marker(
+                [22.884491854649312, 120.19143696618644],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_75ea6ea2f3d540de898658670c0e4830 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef7000ae173d4bf686183247f8562ef6 = $(`<div id="html_ef7000ae173d4bf686183247f8562ef6" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20161001</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19188</td></tr><tr><td>LATITUDE</td><td>22.884361</td></tr><tr><td>Temp</td><td>30.7</td></tr><tr><td>pH</td><td>8.2</td></tr><tr><td>NH3_N</td><td>0.18</td></tr><tr><td>SS</td><td>8</td></tr><tr><td>BOD</td><td>3.24</td></tr><tr><td>COD</td><td>23</td></tr><tr><td>NO3_N</td><td>0.01</td></tr><tr><td>T_P</td><td>0.23</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_75ea6ea2f3d540de898658670c0e4830.setContent(html_ef7000ae173d4bf686183247f8562ef6);
+        
+
+        marker_fe755ac7afbe4685a0b972258932c950.bindPopup(popup_75ea6ea2f3d540de898658670c0e4830)
+        ;
+
+        
+    
+    
+            var marker_54bf18cea133420da5957155d2aa7df7 = L.marker(
+                [22.87773249348069, 120.19318563956246],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_b8ad6fc6d5214c17b0779af1c5a5c73f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96b8c3d2af5549c7ba11a9ddc6748c9c = $(`<div id="html_96b8c3d2af5549c7ba11a9ddc6748c9c" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20170424</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19358</td></tr><tr><td>LATITUDE</td><td>22.8775</td></tr><tr><td>Temp</td><td>29.1</td></tr><tr><td>pH</td><td>8.4</td></tr><tr><td>NH3_N</td><td>0.25</td></tr><tr><td>SS</td><td>49</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.08</td></tr><tr><td>T_P</td><td>0.37</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_b8ad6fc6d5214c17b0779af1c5a5c73f.setContent(html_96b8c3d2af5549c7ba11a9ddc6748c9c);
+        
+
+        marker_54bf18cea133420da5957155d2aa7df7.bindPopup(popup_b8ad6fc6d5214c17b0779af1c5a5c73f)
+        ;
+
+        
+    
+    
+            var marker_fe58ff7fb6214775a6bcbda8bac84ba0 = L.marker(
+                [22.890831496147438, 120.19705833699598],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_bfacbacd0cc243df859c3818ea10c561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7223b136e9bf4f8c9bb8c8f3b572df7f = $(`<div id="html_7223b136e9bf4f8c9bb8c8f3b572df7f" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A3</td></tr><tr><td>EVENTDATE</td><td>20170424</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19713</td></tr><tr><td>LATITUDE</td><td>22.890361</td></tr><tr><td>Temp</td><td>32.7</td></tr><tr><td>pH</td><td>7.8</td></tr><tr><td>NH3_N</td><td>4.22</td></tr><tr><td>SS</td><td>112</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>13.6</td></tr><tr><td>NO3_N</td><td>0.05</td></tr><tr><td>T_P</td><td>0.155</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_bfacbacd0cc243df859c3818ea10c561.setContent(html_7223b136e9bf4f8c9bb8c8f3b572df7f);
+        
+
+        marker_fe58ff7fb6214775a6bcbda8bac84ba0.bindPopup(popup_bfacbacd0cc243df859c3818ea10c561)
+        ;
+
+        
+    
+    
+            var marker_e404c80ba3be4349a87f29bc4f921e1e = L.marker(
+                [22.885804129791072, 120.19441648538923],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_c4124b0555dc4dea869c41aa432b4e2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a742d9585f214e4b91f564a365651986 = $(`<div id="html_a742d9585f214e4b91f564a365651986" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20170424</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19438</td></tr><tr><td>LATITUDE</td><td>22.885777</td></tr><tr><td>Temp</td><td>33.8</td></tr><tr><td>pH</td><td>8.6</td></tr><tr><td>NH3_N</td><td>0.23</td></tr><tr><td>SS</td><td>174</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.2</td></tr><tr><td>T_P</td><td>0.643</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_c4124b0555dc4dea869c41aa432b4e2f.setContent(html_a742d9585f214e4b91f564a365651986);
+        
+
+        marker_e404c80ba3be4349a87f29bc4f921e1e.bindPopup(popup_c4124b0555dc4dea869c41aa432b4e2f)
+        ;
+
+        
+    
+    
+            var marker_24affb51be9d4743b3a0c4e711d2f94d = L.marker(
+                [22.87707727187775, 120.19348762868152],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_ef20ad9fd2304f0c8e270cf731e5291a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8937450292164d7eb9e222181481f6b6 = $(`<div id="html_8937450292164d7eb9e222181481f6b6" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20170811</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19358</td></tr><tr><td>LATITUDE</td><td>22.8775</td></tr><tr><td>Temp</td><td>32.5</td></tr><tr><td>pH</td><td>7.9</td></tr><tr><td>NH3_N</td><td>1.25</td></tr><tr><td>SS</td><td>178</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>3.5</td></tr><tr><td>NO3_N</td><td>4.69</td></tr><tr><td>T_P</td><td>4.87</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_ef20ad9fd2304f0c8e270cf731e5291a.setContent(html_8937450292164d7eb9e222181481f6b6);
+        
+
+        marker_24affb51be9d4743b3a0c4e711d2f94d.bindPopup(popup_ef20ad9fd2304f0c8e270cf731e5291a)
+        ;
+
+        
+    
+    
+            var marker_a3cdc9e98c6f4162871eebb8a41a4aa5 = L.marker(
+                [22.89004591404356, 120.19743819281923],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_a951a59b9b4a4fa9baccbf0f18a2f223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ae4e36e4a234453a733a3e0e1147a6d = $(`<div id="html_6ae4e36e4a234453a733a3e0e1147a6d" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A3</td></tr><tr><td>EVENTDATE</td><td>20170811</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19713</td></tr><tr><td>LATITUDE</td><td>22.890361</td></tr><tr><td>Temp</td><td>32.8</td></tr><tr><td>pH</td><td>7.4</td></tr><tr><td>NH3_N</td><td>1.1</td></tr><tr><td>SS</td><td>5.4</td></tr><tr><td>BOD</td><td>10.4</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.19</td></tr><tr><td>T_P</td><td>0.34</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_a951a59b9b4a4fa9baccbf0f18a2f223.setContent(html_6ae4e36e4a234453a733a3e0e1147a6d);
+        
+
+        marker_a3cdc9e98c6f4162871eebb8a41a4aa5.bindPopup(popup_a951a59b9b4a4fa9baccbf0f18a2f223)
+        ;
+
+        
+    
+    
+            var marker_14e70ec1b65b42ad87d2fff5b7e97bd8 = L.marker(
+                [22.88577447468495, 120.19445144698656],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_8320d8d7d58e4f23ad2204fed3eeb8b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37e3a65565c5443dbb35e3dbb9be5400 = $(`<div id="html_37e3a65565c5443dbb35e3dbb9be5400" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20170811</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19438</td></tr><tr><td>LATITUDE</td><td>22.885777</td></tr><tr><td>Temp</td><td>32.7</td></tr><tr><td>pH</td><td>8.6</td></tr><tr><td>NH3_N</td><td>1.17</td></tr><tr><td>SS</td><td>5.7</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>3.5</td></tr><tr><td>NO3_N</td><td>0.29</td></tr><tr><td>T_P</td><td>0.61</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_8320d8d7d58e4f23ad2204fed3eeb8b9.setContent(html_37e3a65565c5443dbb35e3dbb9be5400);
+        
+
+        marker_14e70ec1b65b42ad87d2fff5b7e97bd8.bindPopup(popup_8320d8d7d58e4f23ad2204fed3eeb8b9)
+        ;
+
+        
+    
+    
+            var marker_b01bc321d9e042cd910c786da4fd5774 = L.marker(
+                [22.877795242482314, 120.19370799104911],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_6ddc6031418c46e2b0e340e9ba28d3a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2761a5a7be0f4319b3cb28c00072f97b = $(`<div id="html_2761a5a7be0f4319b3cb28c00072f97b" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20171103</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19358</td></tr><tr><td>LATITUDE</td><td>22.8775</td></tr><tr><td>Temp</td><td>27.5</td></tr><tr><td>pH</td><td>8.5</td></tr><tr><td>NH3_N</td><td>0.168</td></tr><tr><td>SS</td><td>78.2</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>5.7</td></tr><tr><td>NO3_N</td><td>2.79</td></tr><tr><td>T_P</td><td>3.84</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_6ddc6031418c46e2b0e340e9ba28d3a0.setContent(html_2761a5a7be0f4319b3cb28c00072f97b);
+        
+
+        marker_b01bc321d9e042cd910c786da4fd5774.bindPopup(popup_6ddc6031418c46e2b0e340e9ba28d3a0)
+        ;
+
+        
+    
+    
+            var marker_9a65b19a1fd84336bfdc8524d86b234b = L.marker(
+                [22.88988156420926, 120.19735086004002],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_86e74f3d1f014ab3953226fee8a5d764 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6054e0240cb04dcaa8f3218e80bce248 = $(`<div id="html_6054e0240cb04dcaa8f3218e80bce248" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A3</td></tr><tr><td>EVENTDATE</td><td>20171103</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19713</td></tr><tr><td>LATITUDE</td><td>22.890361</td></tr><tr><td>Temp</td><td>28.8</td></tr><tr><td>pH</td><td>7.3</td></tr><tr><td>NH3_N</td><td>0.055</td></tr><tr><td>SS</td><td>28.8</td></tr><tr><td>BOD</td><td>20.5</td></tr><tr><td>COD</td><td>3.1</td></tr><tr><td>NO3_N</td><td>0.29</td></tr><tr><td>T_P</td><td>1.15</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_86e74f3d1f014ab3953226fee8a5d764.setContent(html_6054e0240cb04dcaa8f3218e80bce248);
+        
+
+        marker_9a65b19a1fd84336bfdc8524d86b234b.bindPopup(popup_86e74f3d1f014ab3953226fee8a5d764)
+        ;
+
+        
+    
+    
+            var marker_ed2d129841cb4c1e87a381d355e51ef9 = L.marker(
+                [22.885323657823474, 120.19397990821446],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_670818846dac4797a7075d7e19befe65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_876a0c1240904916a6c4f10442421ad4 = $(`<div id="html_876a0c1240904916a6c4f10442421ad4" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20171103</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19438</td></tr><tr><td>LATITUDE</td><td>22.885777</td></tr><tr><td>Temp</td><td>27.6</td></tr><tr><td>pH</td><td>8.2</td></tr><tr><td>NH3_N</td><td>0.273</td></tr><tr><td>SS</td><td>44.7</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>4.7</td></tr><tr><td>NO3_N</td><td>0.48</td></tr><tr><td>T_P</td><td>0.59</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_670818846dac4797a7075d7e19befe65.setContent(html_876a0c1240904916a6c4f10442421ad4);
+        
+
+        marker_ed2d129841cb4c1e87a381d355e51ef9.bindPopup(popup_670818846dac4797a7075d7e19befe65)
+        ;
+
+        
+    
+    
+            var marker_09b5ce7151d440068720d666c3ba2cbe = L.marker(
+                [22.886064602363426, 120.19132288246038],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_67517866212b4072892f7215af1fd3b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a9187637bf44b8cb8dcbec4d709e25c = $(`<div id="html_8a9187637bf44b8cb8dcbec4d709e25c" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20180226</td></tr><tr><td>EVENTTIME</td><td>1000</td></tr><tr><td>LONGITUDE</td><td>120.19111</td></tr><tr><td>LATITUDE</td><td>22.886305</td></tr><tr><td>Temp</td><td>27.7</td></tr><tr><td>pH</td><td>6.42</td></tr><tr><td>NH3_N</td><td>0.25</td></tr><tr><td>SS</td><td>68</td></tr><tr><td>BOD</td><td>10.7</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.05</td></tr><tr><td>T_P</td><td>0.54</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_67517866212b4072892f7215af1fd3b2.setContent(html_8a9187637bf44b8cb8dcbec4d709e25c);
+        
+
+        marker_09b5ce7151d440068720d666c3ba2cbe.bindPopup(popup_67517866212b4072892f7215af1fd3b2)
+        ;
+
+        
+    
+    
+            var marker_29a4f061d6944dd4a80990d6adf83a40 = L.marker(
+                [22.8861095436261, 120.19223185195008],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_0a8d0dd451f6472481c94ae68c2bf9c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3eca5bdde864accbde2cc71f2091b09 = $(`<div id="html_e3eca5bdde864accbde2cc71f2091b09" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20180226</td></tr><tr><td>EVENTTIME</td><td>1030</td></tr><tr><td>LONGITUDE</td><td>120.19211</td></tr><tr><td>LATITUDE</td><td>22.8865</td></tr><tr><td>Temp</td><td>32.2</td></tr><tr><td>pH</td><td>6.3</td></tr><tr><td>NH3_N</td><td>0.32</td></tr><tr><td>SS</td><td>89</td></tr><tr><td>BOD</td><td>9.6</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.03</td></tr><tr><td>T_P</td><td>0.32</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_0a8d0dd451f6472481c94ae68c2bf9c6.setContent(html_e3eca5bdde864accbde2cc71f2091b09);
+        
+
+        marker_29a4f061d6944dd4a80990d6adf83a40.bindPopup(popup_0a8d0dd451f6472481c94ae68c2bf9c6)
+        ;
+
+        
+    
+    
+            var marker_39d7ed357d0e46fcb9d0f95474b9b22e = L.marker(
+                [22.884252030264157, 120.20232815193555],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_2d10734bfae6426bb9de0e255d169d2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1654302d499470cb7191c376ced4519 = $(`<div id="html_c1654302d499470cb7191c376ced4519" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A1</td></tr><tr><td>EVENTDATE</td><td>20180605</td></tr><tr><td>EVENTTIME</td><td>1000</td></tr><tr><td>LONGITUDE</td><td>120.20211</td></tr><tr><td>LATITUDE</td><td>22.883805</td></tr><tr><td>Temp</td><td>37.6</td></tr><tr><td>pH</td><td>8.61</td></tr><tr><td>NH3_N</td><td>0.22</td></tr><tr><td>SS</td><td>72</td></tr><tr><td>BOD</td><td>19.4</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.11</td></tr><tr><td>T_P</td><td>0.34</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_2d10734bfae6426bb9de0e255d169d2d.setContent(html_c1654302d499470cb7191c376ced4519);
+        
+
+        marker_39d7ed357d0e46fcb9d0f95474b9b22e.bindPopup(popup_2d10734bfae6426bb9de0e255d169d2d)
+        ;
+
+        
+    
+    
+            var marker_37ebac54fa4c4605acb647af75495cbc = L.marker(
+                [22.890286287336775, 120.19788576831428],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_14019bc3805d4fed8ee996de97bd0390 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3041bf388a34c15a839a9b5167f7acb = $(`<div id="html_e3041bf388a34c15a839a9b5167f7acb" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A3</td></tr><tr><td>EVENTDATE</td><td>20180605</td></tr><tr><td>EVENTTIME</td><td>1030</td></tr><tr><td>LONGITUDE</td><td>120.198</td></tr><tr><td>LATITUDE</td><td>22.889888</td></tr><tr><td>Temp</td><td>37</td></tr><tr><td>pH</td><td>8.27</td></tr><tr><td>NH3_N</td><td>0.12</td></tr><tr><td>SS</td><td>42</td></tr><tr><td>BOD</td><td>20.4</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.03</td></tr><tr><td>T_P</td><td>0.21</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_14019bc3805d4fed8ee996de97bd0390.setContent(html_e3041bf388a34c15a839a9b5167f7acb);
+        
+
+        marker_37ebac54fa4c4605acb647af75495cbc.bindPopup(popup_14019bc3805d4fed8ee996de97bd0390)
+        ;
+
+        
+    
+    
+            var marker_8fdac029ef5443578d90927a19a94c88 = L.marker(
+                [22.88584851375822, 120.19137969430531],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_dc8db2fa315842b7a95a2cd90d3af363 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85e116a25a0c4d5aab641e23ae363302 = $(`<div id="html_85e116a25a0c4d5aab641e23ae363302" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20180605</td></tr><tr><td>EVENTTIME</td><td>1100</td></tr><tr><td>LONGITUDE</td><td>120.19111</td></tr><tr><td>LATITUDE</td><td>22.886305</td></tr><tr><td>Temp</td><td>33.3</td></tr><tr><td>pH</td><td>8.06</td></tr><tr><td>NH3_N</td><td>0.28</td></tr><tr><td>SS</td><td>68</td></tr><tr><td>BOD</td><td>18.3</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.14</td></tr><tr><td>T_P</td><td>0.19</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_dc8db2fa315842b7a95a2cd90d3af363.setContent(html_85e116a25a0c4d5aab641e23ae363302);
+        
+
+        marker_8fdac029ef5443578d90927a19a94c88.bindPopup(popup_dc8db2fa315842b7a95a2cd90d3af363)
+        ;
+
+        
+    
+    
+            var marker_0a06dca5ce21442c811ec0a05f0531ca = L.marker(
+                [22.87835994927859, 120.19273359964708],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_7f08f5f3492c44c480540e8052505cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06d9ab13d5b64511abfb27738685e937 = $(`<div id="html_06d9ab13d5b64511abfb27738685e937" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20180605</td></tr><tr><td>EVENTTIME</td><td>1130</td></tr><tr><td>LONGITUDE</td><td>120.19319</td></tr><tr><td>LATITUDE</td><td>22.877888</td></tr><tr><td>Temp</td><td>36.9</td></tr><tr><td>pH</td><td>8.9</td></tr><tr><td>NH3_N</td><td>0.31</td></tr><tr><td>SS</td><td>57</td></tr><tr><td>BOD</td><td>22</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.32</td></tr><tr><td>T_P</td><td>0.34</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_7f08f5f3492c44c480540e8052505cb0.setContent(html_06d9ab13d5b64511abfb27738685e937);
+        
+
+        marker_0a06dca5ce21442c811ec0a05f0531ca.bindPopup(popup_7f08f5f3492c44c480540e8052505cb0)
+        ;
+
+        
+    
+    
+            var marker_95eda3a60b0d4746b1181cda741f78f6 = L.marker(
+                [22.883631302685636, 120.20259438344327],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_02de1ab124a74a788889b472ce17c2dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39a8db3f113b4f6d90ed6a00ca62b28f = $(`<div id="html_39a8db3f113b4f6d90ed6a00ca62b28f" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A1</td></tr><tr><td>EVENTDATE</td><td>20180906</td></tr><tr><td>EVENTTIME</td><td>1015</td></tr><tr><td>LONGITUDE</td><td>120.20211</td></tr><tr><td>LATITUDE</td><td>22.883805</td></tr><tr><td>Temp</td><td>33.8</td></tr><tr><td>pH</td><td>6.6</td></tr><tr><td>NH3_N</td><td>0.17</td></tr><tr><td>SS</td><td>81</td></tr><tr><td>BOD</td><td>21.2</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.19</td></tr><tr><td>T_P</td><td>0.21</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_02de1ab124a74a788889b472ce17c2dd.setContent(html_39a8db3f113b4f6d90ed6a00ca62b28f);
+        
+
+        marker_95eda3a60b0d4746b1181cda741f78f6.bindPopup(popup_02de1ab124a74a788889b472ce17c2dd)
+        ;
+
+        
+    
+    
+            var marker_2d6784156ed0411a9c8999a5abb7b546 = L.marker(
+                [22.889712541495513, 120.19843936781605],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_a175807d7d004e1f8ca93b18028a9550 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_213748c271af429383ba99eb28416e5b = $(`<div id="html_213748c271af429383ba99eb28416e5b" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A3</td></tr><tr><td>EVENTDATE</td><td>20180906</td></tr><tr><td>EVENTTIME</td><td>1035</td></tr><tr><td>LONGITUDE</td><td>120.198</td></tr><tr><td>LATITUDE</td><td>22.889888</td></tr><tr><td>Temp</td><td>33.9</td></tr><tr><td>pH</td><td>6.6</td></tr><tr><td>NH3_N</td><td>0.13</td></tr><tr><td>SS</td><td>72</td></tr><tr><td>BOD</td><td>19</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.14</td></tr><tr><td>T_P</td><td>0.37</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_a175807d7d004e1f8ca93b18028a9550.setContent(html_213748c271af429383ba99eb28416e5b);
+        
+
+        marker_2d6784156ed0411a9c8999a5abb7b546.bindPopup(popup_a175807d7d004e1f8ca93b18028a9550)
+        ;
+
+        
+    
+    
+            var marker_0b67ec1b40134b81babce1d623b36c96 = L.marker(
+                [22.888515855580366, 120.18811270400504],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_0e596fe40f0d449091c768eeb09ef647 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9c16b9a385d4b49a015a08f9fd461a6 = $(`<div id="html_d9c16b9a385d4b49a015a08f9fd461a6" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B1</td></tr><tr><td>EVENTDATE</td><td>20180906</td></tr><tr><td>EVENTTIME</td><td>1330</td></tr><tr><td>LONGITUDE</td><td>120.18811</td></tr><tr><td>LATITUDE</td><td>22.889</td></tr><tr><td>Temp</td><td>33.7</td></tr><tr><td>pH</td><td>6.6</td></tr><tr><td>NH3_N</td><td>0.13</td></tr><tr><td>SS</td><td>64</td></tr><tr><td>BOD</td><td>10.6</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.09</td></tr><tr><td>T_P</td><td>0.72</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_0e596fe40f0d449091c768eeb09ef647.setContent(html_d9c16b9a385d4b49a015a08f9fd461a6);
+        
+
+        marker_0b67ec1b40134b81babce1d623b36c96.bindPopup(popup_0e596fe40f0d449091c768eeb09ef647)
+        ;
+
+        
+    
+    
+            var marker_60a9bf8fe0bf4f198ec7438e5ecf73ff = L.marker(
+                [22.88609710582291, 120.1911600925377],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_0ead033cf1914ad599eac375a7ec142d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08a610c1ac2441f8a5e75f72a3839fd1 = $(`<div id="html_08a610c1ac2441f8a5e75f72a3839fd1" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20180906</td></tr><tr><td>EVENTTIME</td><td>1310</td></tr><tr><td>LONGITUDE</td><td>120.19111</td></tr><tr><td>LATITUDE</td><td>22.886305</td></tr><tr><td>Temp</td><td>32.9</td></tr><tr><td>pH</td><td>7.1</td></tr><tr><td>NH3_N</td><td>0.15</td></tr><tr><td>SS</td><td>73</td></tr><tr><td>BOD</td><td>15.7</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.13</td></tr><tr><td>T_P</td><td>0.64</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_0ead033cf1914ad599eac375a7ec142d.setContent(html_08a610c1ac2441f8a5e75f72a3839fd1);
+        
+
+        marker_60a9bf8fe0bf4f198ec7438e5ecf73ff.bindPopup(popup_0ead033cf1914ad599eac375a7ec142d)
+        ;
+
+        
+    
+    
+            var marker_0ddecf262e834aee9d49340e5022010c = L.marker(
+                [22.889234866974377, 120.19350085100513],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_e25ab5d7cc614ad5b671badaf33d0788 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bdd475784ca4de7a10e7804eb16ff0b = $(`<div id="html_8bdd475784ca4de7a10e7804eb16ff0b" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B3</td></tr><tr><td>EVENTDATE</td><td>20180906</td></tr><tr><td>EVENTTIME</td><td>1400</td></tr><tr><td>LONGITUDE</td><td>120.194</td></tr><tr><td>LATITUDE</td><td>22.889611</td></tr><tr><td>Temp</td><td>36.7</td></tr><tr><td>pH</td><td>7.2</td></tr><tr><td>NH3_N</td><td>0.16</td></tr><tr><td>SS</td><td>71</td></tr><tr><td>BOD</td><td>19.04</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.13</td></tr><tr><td>T_P</td><td>0.12</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_e25ab5d7cc614ad5b671badaf33d0788.setContent(html_8bdd475784ca4de7a10e7804eb16ff0b);
+        
+
+        marker_0ddecf262e834aee9d49340e5022010c.bindPopup(popup_e25ab5d7cc614ad5b671badaf33d0788)
+        ;
+
+        
+    
+    
+            var marker_837ea61d76c44a4c91aae805cbc24e3f = L.marker(
+                [22.886276966211664, 120.19246637414213],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_ab3e00f19a984f9498c35ee235e07d76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29e6151fabb3413b8430ecb2365a803a = $(`<div id="html_29e6151fabb3413b8430ecb2365a803a" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20180906</td></tr><tr><td>EVENTTIME</td><td>1100</td></tr><tr><td>LONGITUDE</td><td>120.19211</td></tr><tr><td>LATITUDE</td><td>22.8865</td></tr><tr><td>Temp</td><td>33.2</td></tr><tr><td>pH</td><td>6.8</td></tr><tr><td>NH3_N</td><td>0.1</td></tr><tr><td>SS</td><td>69</td></tr><tr><td>BOD</td><td>17.6</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.02</td></tr><tr><td>T_P</td><td>0.41</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_ab3e00f19a984f9498c35ee235e07d76.setContent(html_29e6151fabb3413b8430ecb2365a803a);
+        
+
+        marker_837ea61d76c44a4c91aae805cbc24e3f.bindPopup(popup_ab3e00f19a984f9498c35ee235e07d76)
+        ;
+
+        
+    
+    
+            var marker_e9e195fa608944c58c466084ab17eab7 = L.marker(
+                [22.87767065342548, 120.19316316791888],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_6d385ff907924685b4481dcb5efca314 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4595ef8e6d594515b2b42f9493d70fee = $(`<div id="html_4595ef8e6d594515b2b42f9493d70fee" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20180906</td></tr><tr><td>EVENTTIME</td><td>1135</td></tr><tr><td>LONGITUDE</td><td>120.19319</td></tr><tr><td>LATITUDE</td><td>22.877888</td></tr><tr><td>Temp</td><td>36.1</td></tr><tr><td>pH</td><td>7.9</td></tr><tr><td>NH3_N</td><td>0.24</td></tr><tr><td>SS</td><td>68</td></tr><tr><td>BOD</td><td>22</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.11</td></tr><tr><td>T_P</td><td>0.11</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_6d385ff907924685b4481dcb5efca314.setContent(html_4595ef8e6d594515b2b42f9493d70fee);
+        
+
+        marker_e9e195fa608944c58c466084ab17eab7.bindPopup(popup_6d385ff907924685b4481dcb5efca314)
+        ;
+
+        
+    
+    
+            var marker_65bca3d880124b9d8fcf9f788809b5ed = L.marker(
+                [22.883609190825464, 120.2020576706391],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_a0c687aeec504178ac7fcd4664012e76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4add37a34abd4ac182f0c575331c4a1f = $(`<div id="html_4add37a34abd4ac182f0c575331c4a1f" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A1</td></tr><tr><td>EVENTDATE</td><td>20181105</td></tr><tr><td>EVENTTIME</td><td>1000</td></tr><tr><td>LONGITUDE</td><td>120.20211</td></tr><tr><td>LATITUDE</td><td>22.883805</td></tr><tr><td>Temp</td><td>30.6</td></tr><tr><td>pH</td><td>6.8</td></tr><tr><td>NH3_N</td><td>0.12</td></tr><tr><td>SS</td><td>74</td></tr><tr><td>BOD</td><td>19.2</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.15</td></tr><tr><td>T_P</td><td>0.18</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_a0c687aeec504178ac7fcd4664012e76.setContent(html_4add37a34abd4ac182f0c575331c4a1f);
+        
+
+        marker_65bca3d880124b9d8fcf9f788809b5ed.bindPopup(popup_a0c687aeec504178ac7fcd4664012e76)
+        ;
+
+        
+    
+    
+            var marker_c0393b54efb244b98bdd5aac6021c1b9 = L.marker(
+                [22.889822734547373, 120.19829238052218],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_4e7a737fb6994093834cc6be167855f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09850dbecd194cf5a10007d9ac0c7049 = $(`<div id="html_09850dbecd194cf5a10007d9ac0c7049" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>A3</td></tr><tr><td>EVENTDATE</td><td>20181105</td></tr><tr><td>EVENTTIME</td><td>1030</td></tr><tr><td>LONGITUDE</td><td>120.198</td></tr><tr><td>LATITUDE</td><td>22.889888</td></tr><tr><td>Temp</td><td>30.4</td></tr><tr><td>pH</td><td>6.5</td></tr><tr><td>NH3_N</td><td>0.1</td></tr><tr><td>SS</td><td>82</td></tr><tr><td>BOD</td><td>17.4</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.08</td></tr><tr><td>T_P</td><td>0.27</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_4e7a737fb6994093834cc6be167855f4.setContent(html_09850dbecd194cf5a10007d9ac0c7049);
+        
+
+        marker_c0393b54efb244b98bdd5aac6021c1b9.bindPopup(popup_4e7a737fb6994093834cc6be167855f4)
+        ;
+
+        
+    
+    
+            var marker_c44bea9d0d26454c9f77ac1b5305e5e5 = L.marker(
+                [22.889074288988787, 120.18824985956023],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_b68431bb7b1b46d191381f5e167ee65d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9aa27ccddca43a683941efa017affca = $(`<div id="html_a9aa27ccddca43a683941efa017affca" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B1</td></tr><tr><td>EVENTDATE</td><td>20181105</td></tr><tr><td>EVENTTIME</td><td>1330</td></tr><tr><td>LONGITUDE</td><td>120.18811</td></tr><tr><td>LATITUDE</td><td>22.889</td></tr><tr><td>Temp</td><td>32.8</td></tr><tr><td>pH</td><td>7.2</td></tr><tr><td>NH3_N</td><td>0.1</td></tr><tr><td>SS</td><td>60</td></tr><tr><td>BOD</td><td>19.4</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.07</td></tr><tr><td>T_P</td><td>0.45</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_b68431bb7b1b46d191381f5e167ee65d.setContent(html_a9aa27ccddca43a683941efa017affca);
+        
+
+        marker_c44bea9d0d26454c9f77ac1b5305e5e5.bindPopup(popup_b68431bb7b1b46d191381f5e167ee65d)
+        ;
+
+        
+    
+    
+            var marker_2e43e9569bdc47379750bea33e713a1d = L.marker(
+                [22.886434487612075, 120.190914061504],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_e0c1557297ea451289ac4de565fda28e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4522673c492b44faaca59b132d997475 = $(`<div id="html_4522673c492b44faaca59b132d997475" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20181105</td></tr><tr><td>EVENTTIME</td><td>1300</td></tr><tr><td>LONGITUDE</td><td>120.19111</td></tr><tr><td>LATITUDE</td><td>22.886305</td></tr><tr><td>Temp</td><td>29.3</td></tr><tr><td>pH</td><td>7.4</td></tr><tr><td>NH3_N</td><td>0.12</td></tr><tr><td>SS</td><td>72</td></tr><tr><td>BOD</td><td>19.1</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.05</td></tr><tr><td>T_P</td><td>0.87</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_e0c1557297ea451289ac4de565fda28e.setContent(html_4522673c492b44faaca59b132d997475);
+        
+
+        marker_2e43e9569bdc47379750bea33e713a1d.bindPopup(popup_e0c1557297ea451289ac4de565fda28e)
+        ;
+
+        
+    
+    
+            var marker_85c696f6f9f94a2f9dbbd6f74f69c1bf = L.marker(
+                [22.89007509487723, 120.19401571240107],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_b27d90589ba04a4bb1a950bd0705d7a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7e51d1c6c0443288bb8c1021ffb5018 = $(`<div id="html_d7e51d1c6c0443288bb8c1021ffb5018" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B3</td></tr><tr><td>EVENTDATE</td><td>20181105</td></tr><tr><td>EVENTTIME</td><td>1405</td></tr><tr><td>LONGITUDE</td><td>120.194</td></tr><tr><td>LATITUDE</td><td>22.889611</td></tr><tr><td>Temp</td><td>30.6</td></tr><tr><td>pH</td><td>6.9</td></tr><tr><td>NH3_N</td><td>0.14</td></tr><tr><td>SS</td><td>67</td></tr><tr><td>BOD</td><td>20</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.09</td></tr><tr><td>T_P</td><td>0.59</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_b27d90589ba04a4bb1a950bd0705d7a3.setContent(html_d7e51d1c6c0443288bb8c1021ffb5018);
+        
+
+        marker_85c696f6f9f94a2f9dbbd6f74f69c1bf.bindPopup(popup_b27d90589ba04a4bb1a950bd0705d7a3)
+        ;
+
+        
+    
+    
+            var marker_453945b11a034ac58590cffff288fd8e = L.marker(
+                [22.886099889085987, 120.19217504990611],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_dbd7c027dfb947a2bc8431d7b2e5e3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ba51936b94748b4b7923421c12c50a5 = $(`<div id="html_7ba51936b94748b4b7923421c12c50a5" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20181105</td></tr><tr><td>EVENTTIME</td><td>1100</td></tr><tr><td>LONGITUDE</td><td>120.19211</td></tr><tr><td>LATITUDE</td><td>22.8865</td></tr><tr><td>Temp</td><td>30.6</td></tr><tr><td>pH</td><td>6.7</td></tr><tr><td>NH3_N</td><td>0.09</td></tr><tr><td>SS</td><td>75</td></tr><tr><td>BOD</td><td>15.4</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.04</td></tr><tr><td>T_P</td><td>0.74</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_dbd7c027dfb947a2bc8431d7b2e5e3a4.setContent(html_7ba51936b94748b4b7923421c12c50a5);
+        
+
+        marker_453945b11a034ac58590cffff288fd8e.bindPopup(popup_dbd7c027dfb947a2bc8431d7b2e5e3a4)
+        ;
+
+        
+    
+    
+            var marker_c0acdb94564446bcad5abf51c3f6d337 = L.marker(
+                [22.87766966041019, 120.19325983893702],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_5d0be5562ea941d6b3c2ac860108b575 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9e2515b6a25426db22b2ccc6802d691 = $(`<div id="html_c9e2515b6a25426db22b2ccc6802d691" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>公15</td></tr><tr><td>EVENTDATE</td><td>20181105</td></tr><tr><td>EVENTTIME</td><td>1130</td></tr><tr><td>LONGITUDE</td><td>120.19319</td></tr><tr><td>LATITUDE</td><td>22.877888</td></tr><tr><td>Temp</td><td>32.3</td></tr><tr><td>pH</td><td>8.5</td></tr><tr><td>NH3_N</td><td>0.14</td></tr><tr><td>SS</td><td>71</td></tr><tr><td>BOD</td><td>19.1</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.14</td></tr><tr><td>T_P</td><td>0.24</td></tr><tr><td>Investigator</td><td>丁德興</td></tr></table></div>`)[0];
+            popup_5d0be5562ea941d6b3c2ac860108b575.setContent(html_c9e2515b6a25426db22b2ccc6802d691);
+        
+
+        marker_c0acdb94564446bcad5abf51c3f6d337.bindPopup(popup_5d0be5562ea941d6b3c2ac860108b575)
+        ;
+
+        
+    
+    
+            var marker_7028eb8634b6442e81becbcb62199899 = L.marker(
+                [22.885587320979926, 120.1908711494183],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_cf6cc84f9571440497c0fb8238a01d45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_441f0d34169e4a6e800de3ec31f0481f = $(`<div id="html_441f0d34169e4a6e800de3ec31f0481f" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20150326</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19088</td></tr><tr><td>LATITUDE</td><td>22.886083</td></tr><tr><td>Temp</td><td>25.2</td></tr><tr><td>pH</td><td>8.2</td></tr><tr><td>NH3_N</td><td>0.15</td></tr><tr><td>SS</td><td>94</td></tr><tr><td>BOD</td><td>21.1</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>-99999</td></tr><tr><td>T_P</td><td>0.456</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_cf6cc84f9571440497c0fb8238a01d45.setContent(html_441f0d34169e4a6e800de3ec31f0481f);
+        
+
+        marker_7028eb8634b6442e81becbcb62199899.bindPopup(popup_cf6cc84f9571440497c0fb8238a01d45)
+        ;
+
+        
+    
+    
+            var marker_706368dbadbe4be3a57fd951ec6e3a46 = L.marker(
+                [22.884061688825398, 120.19208541298042],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_aa88ececa1614bc3bde0d90e33be691a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cd96f5d7c1649a5ae4627730c7756a7 = $(`<div id="html_6cd96f5d7c1649a5ae4627730c7756a7" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20150326</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19238</td></tr><tr><td>LATITUDE</td><td>22.884055</td></tr><tr><td>Temp</td><td>25.7</td></tr><tr><td>pH</td><td>8.1</td></tr><tr><td>NH3_N</td><td>0.44</td></tr><tr><td>SS</td><td>67.2</td></tr><tr><td>BOD</td><td>9.6</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>0.02</td></tr><tr><td>T_P</td><td>0.219</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_aa88ececa1614bc3bde0d90e33be691a.setContent(html_6cd96f5d7c1649a5ae4627730c7756a7);
+        
+
+        marker_706368dbadbe4be3a57fd951ec6e3a46.bindPopup(popup_aa88ececa1614bc3bde0d90e33be691a)
+        ;
+
+        
+    
+    
+            var marker_ba3a9ac94b2848e6abb51f6a12974967 = L.marker(
+                [22.88593244496822, 120.190415307943],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_238bafa9b6ff45f0b53061ff9279d2dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d632523879744b59d954f52528ab9a5 = $(`<div id="html_7d632523879744b59d954f52528ab9a5" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B2</td></tr><tr><td>EVENTDATE</td><td>20150918</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19088</td></tr><tr><td>LATITUDE</td><td>22.886083</td></tr><tr><td>Temp</td><td>31.3</td></tr><tr><td>pH</td><td>7.6</td></tr><tr><td>NH3_N</td><td>0.46</td></tr><tr><td>SS</td><td>-99999</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>-99999</td></tr><tr><td>NO3_N</td><td>1.29</td></tr><tr><td>T_P</td><td>0.285</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_238bafa9b6ff45f0b53061ff9279d2dd.setContent(html_7d632523879744b59d954f52528ab9a5);
+        
+
+        marker_ba3a9ac94b2848e6abb51f6a12974967.bindPopup(popup_238bafa9b6ff45f0b53061ff9279d2dd)
+        ;
+
+        
+    
+    
+            var marker_e4969b2bb5f94a4cb0f663722a00f6d9 = L.marker(
+                [22.884137873473676, 120.19254736496345],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_54e32de194214e3286c38dd5fbe247ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d9f502aa5f64b8bb61f8a3bd808166f = $(`<div id="html_1d9f502aa5f64b8bb61f8a3bd808166f" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>B4</td></tr><tr><td>EVENTDATE</td><td>20150918</td></tr><tr><td>EVENTTIME</td><td>NA</td></tr><tr><td>LONGITUDE</td><td>120.19238</td></tr><tr><td>LATITUDE</td><td>22.884055</td></tr><tr><td>Temp</td><td>34.2</td></tr><tr><td>pH</td><td>7.3</td></tr><tr><td>NH3_N</td><td>0.12</td></tr><tr><td>SS</td><td>5.6</td></tr><tr><td>BOD</td><td>-99999</td></tr><tr><td>COD</td><td>23.2</td></tr><tr><td>NO3_N</td><td>0.06</td></tr><tr><td>T_P</td><td>0.076</td></tr><tr><td>Investigator</td><td>NA</td></tr></table></div>`)[0];
+            popup_54e32de194214e3286c38dd5fbe247ca.setContent(html_1d9f502aa5f64b8bb61f8a3bd808166f);
+        
+
+        marker_e4969b2bb5f94a4cb0f663722a00f6d9.bindPopup(popup_54e32de194214e3286c38dd5fbe247ca)
+        ;
+
+        
+    
+    
+            var marker_4c9cdb397a3c473299643af1f573d274 = L.marker(
+                [22.88492340021433, 120.20011208013098],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_3d8909d9d9c045a996e1af7eba1becb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_494dc5d4e1614d28985ba7e93c6a1781 = $(`<div id="html_494dc5d4e1614d28985ba7e93c6a1781" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N2</td></tr><tr><td>EVENTDATE</td><td>20190324</td></tr><tr><td>EVENTTIME</td><td>1030</td></tr><tr><td>LONGITUDE</td><td>120.20020</td></tr><tr><td>LATITUDE</td><td>22.884714</td></tr><tr><td>Temp</td><td>19.6</td></tr><tr><td>pH</td><td>8.53</td></tr><tr><td>NH3_N</td><td>0.25</td></tr><tr><td>SS</td><td>31</td></tr><tr><td>BOD</td><td>5.16</td></tr><tr><td>COD</td><td>60.1</td></tr><tr><td>NO3_N</td><td>1</td></tr><tr><td>T_P</td><td>8.53</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_3d8909d9d9c045a996e1af7eba1becb1.setContent(html_494dc5d4e1614d28985ba7e93c6a1781);
+        
+
+        marker_4c9cdb397a3c473299643af1f573d274.bindPopup(popup_3d8909d9d9c045a996e1af7eba1becb1)
+        ;
+
+        
+    
+    
+            var marker_99068004a213487aacd5b2c763a22bdd = L.marker(
+                [22.886172054233494, 120.18878734406287],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_f13ae800eedf45bda62e8c22fe016e3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a08b904c64824010ae97b8c956848a40 = $(`<div id="html_a08b904c64824010ae97b8c956848a40" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N4</td></tr><tr><td>EVENTDATE</td><td>20190325</td></tr><tr><td>EVENTTIME</td><td>1040</td></tr><tr><td>LONGITUDE</td><td>120.18908</td></tr><tr><td>LATITUDE</td><td>22.886012</td></tr><tr><td>Temp</td><td>20.9</td></tr><tr><td>pH</td><td>7.99</td></tr><tr><td>NH3_N</td><td>0.59</td></tr><tr><td>SS</td><td>62</td></tr><tr><td>BOD</td><td>19.125</td></tr><tr><td>COD</td><td>67.5</td></tr><tr><td>NO3_N</td><td>0.6</td></tr><tr><td>T_P</td><td>7.99</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_f13ae800eedf45bda62e8c22fe016e3c.setContent(html_a08b904c64824010ae97b8c956848a40);
+        
+
+        marker_99068004a213487aacd5b2c763a22bdd.bindPopup(popup_f13ae800eedf45bda62e8c22fe016e3c)
+        ;
+
+        
+    
+    
+            var marker_387f050656904427aea7165afa0af288 = L.marker(
+                [22.889114440440835, 120.19564833115257],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_832d0b5931ef4f92aa250dacc714ed44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d6538e860cc4dd097649a9bff0d3f15 = $(`<div id="html_5d6538e860cc4dd097649a9bff0d3f15" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N5</td></tr><tr><td>EVENTDATE</td><td>20190326</td></tr><tr><td>EVENTTIME</td><td>1300</td></tr><tr><td>LONGITUDE</td><td>120.19540</td></tr><tr><td>LATITUDE</td><td>22.888843</td></tr><tr><td>Temp</td><td>21.3</td></tr><tr><td>pH</td><td>8.89</td></tr><tr><td>NH3_N</td><td>0.15</td></tr><tr><td>SS</td><td>248</td></tr><tr><td>BOD</td><td>15.825</td></tr><tr><td>COD</td><td>147</td></tr><tr><td>NO3_N</td><td>0.7</td></tr><tr><td>T_P</td><td>8.89</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_832d0b5931ef4f92aa250dacc714ed44.setContent(html_5d6538e860cc4dd097649a9bff0d3f15);
+        
+
+        marker_387f050656904427aea7165afa0af288.bindPopup(popup_832d0b5931ef4f92aa250dacc714ed44)
+        ;
+
+        
+    
+    
+            var marker_b60dd36334eb4a30bc415d7817cf5844 = L.marker(
+                [22.879396188702685, 120.19695570923643],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_4b3ad0210d274adeb9254049a6505eda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89a380358b504d259e1107222b4fe3e3 = $(`<div id="html_89a380358b504d259e1107222b4fe3e3" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S2</td></tr><tr><td>EVENTDATE</td><td>20190327</td></tr><tr><td>EVENTTIME</td><td>1400</td></tr><tr><td>LONGITUDE</td><td>120.19731</td></tr><tr><td>LATITUDE</td><td>22.879823</td></tr><tr><td>Temp</td><td>23.5</td></tr><tr><td>pH</td><td>8.1</td></tr><tr><td>NH3_N</td><td>1.28</td></tr><tr><td>SS</td><td>64.5</td></tr><tr><td>BOD</td><td>3.83</td></tr><tr><td>COD</td><td>44.2</td></tr><tr><td>NO3_N</td><td>0.6</td></tr><tr><td>T_P</td><td>8.1</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_4b3ad0210d274adeb9254049a6505eda.setContent(html_89a380358b504d259e1107222b4fe3e3);
+        
+
+        marker_b60dd36334eb4a30bc415d7817cf5844.bindPopup(popup_4b3ad0210d274adeb9254049a6505eda)
+        ;
+
+        
+    
+    
+            var marker_e991c37eaecf4712933d28d1c370b1a1 = L.marker(
+                [22.878636020559767, 120.19378725580519],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_058e9b3d576347459dc702161e5e943c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddcd4c172b9940d99d8271501a95e235 = $(`<div id="html_ddcd4c172b9940d99d8271501a95e235" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S3</td></tr><tr><td>EVENTDATE</td><td>20190328</td></tr><tr><td>EVENTTIME</td><td>1430</td></tr><tr><td>LONGITUDE</td><td>120.19351</td></tr><tr><td>LATITUDE</td><td>22.878900</td></tr><tr><td>Temp</td><td>22.6</td></tr><tr><td>pH</td><td>8.13</td></tr><tr><td>NH3_N</td><td>2.88</td></tr><tr><td>SS</td><td>232</td></tr><tr><td>BOD</td><td>5.02</td></tr><tr><td>COD</td><td>31.5</td></tr><tr><td>NO3_N</td><td>0.6</td></tr><tr><td>T_P</td><td>8.13</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_058e9b3d576347459dc702161e5e943c.setContent(html_ddcd4c172b9940d99d8271501a95e235);
+        
+
+        marker_e991c37eaecf4712933d28d1c370b1a1.bindPopup(popup_058e9b3d576347459dc702161e5e943c)
+        ;
+
+        
+    
+    
+            var marker_94a3c9f6f8e743db84fc6f674f3f8d9d = L.marker(
+                [22.882103070445634, 120.1969532854036],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_80e271a59c7f4874a895266cf6107326 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e6acb18de1b4edb91b3d07915df94ca = $(`<div id="html_3e6acb18de1b4edb91b3d07915df94ca" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S4</td></tr><tr><td>EVENTDATE</td><td>20190329</td></tr><tr><td>EVENTTIME</td><td>1500</td></tr><tr><td>LONGITUDE</td><td>120.19710</td></tr><tr><td>LATITUDE</td><td>22.881628</td></tr><tr><td>Temp</td><td>22.7</td></tr><tr><td>pH</td><td>8.87</td></tr><tr><td>NH3_N</td><td>0.61</td></tr><tr><td>SS</td><td>89</td></tr><tr><td>BOD</td><td>14.125</td></tr><tr><td>COD</td><td>73.7</td></tr><tr><td>NO3_N</td><td>0.6</td></tr><tr><td>T_P</td><td>8.87</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_80e271a59c7f4874a895266cf6107326.setContent(html_3e6acb18de1b4edb91b3d07915df94ca);
+        
+
+        marker_94a3c9f6f8e743db84fc6f674f3f8d9d.bindPopup(popup_80e271a59c7f4874a895266cf6107326)
+        ;
+
+        
+    
+    
+            var marker_9ff5c8b1c02d402eb06b6924db2e32be = L.marker(
+                [22.884477842054785, 120.20038844256453],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_fa9fc006bfb44e92ace88c01618d9b07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12aa4474e63b4ec6b48846ff1b61e99b = $(`<div id="html_12aa4474e63b4ec6b48846ff1b61e99b" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N2</td></tr><tr><td>EVENTDATE</td><td>20190524</td></tr><tr><td>EVENTTIME</td><td>1030</td></tr><tr><td>LONGITUDE</td><td>120.20020</td></tr><tr><td>LATITUDE</td><td>22.884714</td></tr><tr><td>Temp</td><td>29.1</td></tr><tr><td>pH</td><td>7.32</td></tr><tr><td>NH3_N</td><td>0.05</td></tr><tr><td>SS</td><td>1.5</td></tr><tr><td>BOD</td><td>1.265</td></tr><tr><td>COD</td><td>21.384</td></tr><tr><td>NO3_N</td><td>0.6</td></tr><tr><td>T_P</td><td>7.32</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_fa9fc006bfb44e92ace88c01618d9b07.setContent(html_12aa4474e63b4ec6b48846ff1b61e99b);
+        
+
+        marker_9ff5c8b1c02d402eb06b6924db2e32be.bindPopup(popup_fa9fc006bfb44e92ace88c01618d9b07)
+        ;
+
+        
+    
+    
+            var marker_6f2d2fb6e5784054a4cdb10b3ef485f8 = L.marker(
+                [22.88638864685938, 120.1887410942409],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_5de561b8a551445187051825e12cc79c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71c3054def4140f3ba7fe98346c28e69 = $(`<div id="html_71c3054def4140f3ba7fe98346c28e69" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N4</td></tr><tr><td>EVENTDATE</td><td>20190525</td></tr><tr><td>EVENTTIME</td><td>1040</td></tr><tr><td>LONGITUDE</td><td>120.18908</td></tr><tr><td>LATITUDE</td><td>22.886012</td></tr><tr><td>Temp</td><td>29.4</td></tr><tr><td>pH</td><td>8.19</td></tr><tr><td>NH3_N</td><td>0.53</td></tr><tr><td>SS</td><td>81.5</td></tr><tr><td>BOD</td><td>9.54</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.1</td></tr><tr><td>T_P</td><td>8.19</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_5de561b8a551445187051825e12cc79c.setContent(html_71c3054def4140f3ba7fe98346c28e69);
+        
+
+        marker_6f2d2fb6e5784054a4cdb10b3ef485f8.bindPopup(popup_5de561b8a551445187051825e12cc79c)
+        ;
+
+        
+    
+    
+            var marker_a66d3f6ae1eb4117a99a7ff504356158 = L.marker(
+                [22.88858283569652, 120.19574101933526],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_37fe8fc06d3f4bffa45c69ca9c4290be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_510499b9ec154dd9b9f03b2497604a91 = $(`<div id="html_510499b9ec154dd9b9f03b2497604a91" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N5</td></tr><tr><td>EVENTDATE</td><td>20190526</td></tr><tr><td>EVENTTIME</td><td>1300</td></tr><tr><td>LONGITUDE</td><td>120.19540</td></tr><tr><td>LATITUDE</td><td>22.888843</td></tr><tr><td>Temp</td><td>29.5</td></tr><tr><td>pH</td><td>8.29</td></tr><tr><td>NH3_N</td><td>0.01</td></tr><tr><td>SS</td><td>26.5</td></tr><tr><td>BOD</td><td>1.385</td></tr><tr><td>COD</td><td>36.936</td></tr><tr><td>NO3_N</td><td>0.7</td></tr><tr><td>T_P</td><td>8.29</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_37fe8fc06d3f4bffa45c69ca9c4290be.setContent(html_510499b9ec154dd9b9f03b2497604a91);
+        
+
+        marker_a66d3f6ae1eb4117a99a7ff504356158.bindPopup(popup_37fe8fc06d3f4bffa45c69ca9c4290be)
+        ;
+
+        
+    
+    
+            var marker_a0e83bb38e32484a8828df2640b92b24 = L.marker(
+                [22.879424819765322, 120.19765402026297],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_0b01af0a20084fd3ba62032cfbcd7596 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_596b91b32923499091e85eaa89e061c9 = $(`<div id="html_596b91b32923499091e85eaa89e061c9" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S2</td></tr><tr><td>EVENTDATE</td><td>20190527</td></tr><tr><td>EVENTTIME</td><td>1400</td></tr><tr><td>LONGITUDE</td><td>120.19731</td></tr><tr><td>LATITUDE</td><td>22.879823</td></tr><tr><td>Temp</td><td>30.3</td></tr><tr><td>pH</td><td>7.91</td></tr><tr><td>NH3_N</td><td>1.26</td></tr><tr><td>SS</td><td>81.5</td></tr><tr><td>BOD</td><td>6.86</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.7</td></tr><tr><td>T_P</td><td>7.91</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_0b01af0a20084fd3ba62032cfbcd7596.setContent(html_596b91b32923499091e85eaa89e061c9);
+        
+
+        marker_a0e83bb38e32484a8828df2640b92b24.bindPopup(popup_0b01af0a20084fd3ba62032cfbcd7596)
+        ;
+
+        
+    
+    
+            var marker_e006cbcdd5c0442192c577bbe478071d = L.marker(
+                [22.879101142447126, 120.19306766791544],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_b09bdbe669de4ae99acde34f34dd5fe9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea161de4a4ae4aa7b31098e5ab64e093 = $(`<div id="html_ea161de4a4ae4aa7b31098e5ab64e093" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S3</td></tr><tr><td>EVENTDATE</td><td>20190528</td></tr><tr><td>EVENTTIME</td><td>1430</td></tr><tr><td>LONGITUDE</td><td>120.19351</td></tr><tr><td>LATITUDE</td><td>22.878900</td></tr><tr><td>Temp</td><td>30.1</td></tr><tr><td>pH</td><td>7.91</td></tr><tr><td>NH3_N</td><td>1.19</td></tr><tr><td>SS</td><td>77.5</td></tr><tr><td>BOD</td><td>4.77</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.6</td></tr><tr><td>T_P</td><td>7.91</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_b09bdbe669de4ae99acde34f34dd5fe9.setContent(html_ea161de4a4ae4aa7b31098e5ab64e093);
+        
+
+        marker_e006cbcdd5c0442192c577bbe478071d.bindPopup(popup_b09bdbe669de4ae99acde34f34dd5fe9)
+        ;
+
+        
+    
+    
+            var marker_59d6a592f1914734ab054a05cf3537c8 = L.marker(
+                [22.881636506815607, 120.1973283081911],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_f1d1e902286945cea0f562393061a3c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad6ea246b74949deb6fe8b0069358c0c = $(`<div id="html_ad6ea246b74949deb6fe8b0069358c0c" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S4</td></tr><tr><td>EVENTDATE</td><td>20190529</td></tr><tr><td>EVENTTIME</td><td>1500</td></tr><tr><td>LONGITUDE</td><td>120.19710</td></tr><tr><td>LATITUDE</td><td>22.881628</td></tr><tr><td>Temp</td><td>29.8</td></tr><tr><td>pH</td><td>7.95</td></tr><tr><td>NH3_N</td><td>0.05</td></tr><tr><td>SS</td><td>15</td></tr><tr><td>BOD</td><td>1.315</td></tr><tr><td>COD</td><td>40.824</td></tr><tr><td>NO3_N</td><td>0.6</td></tr><tr><td>T_P</td><td>7.95</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_f1d1e902286945cea0f562393061a3c7.setContent(html_ad6ea246b74949deb6fe8b0069358c0c);
+        
+
+        marker_59d6a592f1914734ab054a05cf3537c8.bindPopup(popup_f1d1e902286945cea0f562393061a3c7)
+        ;
+
+        
+    
+    
+            var marker_1244f23d90674a9a86dba28a767bdb58 = L.marker(
+                [22.884697426890487, 120.20019040231487],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_eb30e936e1f7419dba2d6dea00add63d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7931f317df53422c847626b2a725e3c5 = $(`<div id="html_7931f317df53422c847626b2a725e3c5" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N2</td></tr><tr><td>EVENTDATE</td><td>20190823</td></tr><tr><td>EVENTTIME</td><td>1030</td></tr><tr><td>LONGITUDE</td><td>120.20020</td></tr><tr><td>LATITUDE</td><td>22.884714</td></tr><tr><td>Temp</td><td>33</td></tr><tr><td>pH</td><td>7.92</td></tr><tr><td>NH3_N</td><td>0.13</td></tr><tr><td>SS</td><td>12</td></tr><tr><td>BOD</td><td>1.654</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.86</td></tr><tr><td>T_P</td><td>7.92</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_eb30e936e1f7419dba2d6dea00add63d.setContent(html_7931f317df53422c847626b2a725e3c5);
+        
+
+        marker_1244f23d90674a9a86dba28a767bdb58.bindPopup(popup_eb30e936e1f7419dba2d6dea00add63d)
+        ;
+
+        
+    
+    
+            var marker_daa61bd88f5c470489985904cf427913 = L.marker(
+                [22.886021332758162, 120.18894398025154],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_5c2d77230eea4aad8cb972e509e7efb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6f51a402f2b49aebc85fffb466b3f40 = $(`<div id="html_a6f51a402f2b49aebc85fffb466b3f40" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N4</td></tr><tr><td>EVENTDATE</td><td>20190824</td></tr><tr><td>EVENTTIME</td><td>1040</td></tr><tr><td>LONGITUDE</td><td>120.18908</td></tr><tr><td>LATITUDE</td><td>22.886012</td></tr><tr><td>Temp</td><td>33.4</td></tr><tr><td>pH</td><td>8.14</td></tr><tr><td>NH3_N</td><td>0.91</td></tr><tr><td>SS</td><td>35</td></tr><tr><td>BOD</td><td>9.34</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.76</td></tr><tr><td>T_P</td><td>8.14</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_5c2d77230eea4aad8cb972e509e7efb9.setContent(html_a6f51a402f2b49aebc85fffb466b3f40);
+        
+
+        marker_daa61bd88f5c470489985904cf427913.bindPopup(popup_5c2d77230eea4aad8cb972e509e7efb9)
+        ;
+
+        
+    
+    
+            var marker_e83a5d8728a840409242a8d2b4052a31 = L.marker(
+                [22.88854101587176, 120.1950929928194],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_ad8ad1d1338441e3a91a411f2248d780 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_194d23bad77e4bcba7dc8675b4976220 = $(`<div id="html_194d23bad77e4bcba7dc8675b4976220" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N5</td></tr><tr><td>EVENTDATE</td><td>20190825</td></tr><tr><td>EVENTTIME</td><td>1300</td></tr><tr><td>LONGITUDE</td><td>120.19540</td></tr><tr><td>LATITUDE</td><td>22.888843</td></tr><tr><td>Temp</td><td>34</td></tr><tr><td>pH</td><td>8.43</td></tr><tr><td>NH3_N</td><td>0.07</td></tr><tr><td>SS</td><td>12</td></tr><tr><td>BOD</td><td>3.75</td></tr><tr><td>COD</td><td>20</td></tr><tr><td>NO3_N</td><td>0.73</td></tr><tr><td>T_P</td><td>8.43</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_ad8ad1d1338441e3a91a411f2248d780.setContent(html_194d23bad77e4bcba7dc8675b4976220);
+        
+
+        marker_e83a5d8728a840409242a8d2b4052a31.bindPopup(popup_ad8ad1d1338441e3a91a411f2248d780)
+        ;
+
+        
+    
+    
+            var marker_a674e12fe9c34a2bb071292e176393c5 = L.marker(
+                [22.879780197481182, 120.19779478337489],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_bb4d9b103804405e955d3150208b2d7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49869c37037947149fdef46b103779f9 = $(`<div id="html_49869c37037947149fdef46b103779f9" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S2</td></tr><tr><td>EVENTDATE</td><td>20190826</td></tr><tr><td>EVENTTIME</td><td>1400</td></tr><tr><td>LONGITUDE</td><td>120.19731</td></tr><tr><td>LATITUDE</td><td>22.879823</td></tr><tr><td>Temp</td><td>32.8</td></tr><tr><td>pH</td><td>8.06</td></tr><tr><td>NH3_N</td><td>2.9</td></tr><tr><td>SS</td><td>62.5</td></tr><tr><td>BOD</td><td>4.105</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.76</td></tr><tr><td>T_P</td><td>8.06</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_bb4d9b103804405e955d3150208b2d7b.setContent(html_49869c37037947149fdef46b103779f9);
+        
+
+        marker_a674e12fe9c34a2bb071292e176393c5.bindPopup(popup_bb4d9b103804405e955d3150208b2d7b)
+        ;
+
+        
+    
+    
+            var marker_27613bdf5c1249a4bd7bee1d0d9dae89 = L.marker(
+                [22.878794129036237, 120.19370245384079],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_a9076f69b6ef4c76bd7d5d4a58dc5fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ccc70bf264143f78a00afa139cd5835 = $(`<div id="html_9ccc70bf264143f78a00afa139cd5835" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S3</td></tr><tr><td>EVENTDATE</td><td>20190827</td></tr><tr><td>EVENTTIME</td><td>1430</td></tr><tr><td>LONGITUDE</td><td>120.19351</td></tr><tr><td>LATITUDE</td><td>22.878900</td></tr><tr><td>Temp</td><td>36.8</td></tr><tr><td>pH</td><td>8.11</td></tr><tr><td>NH3_N</td><td>0.34</td></tr><tr><td>SS</td><td>68</td></tr><tr><td>BOD</td><td>5.025</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.66</td></tr><tr><td>T_P</td><td>8.11</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_a9076f69b6ef4c76bd7d5d4a58dc5fd4.setContent(html_9ccc70bf264143f78a00afa139cd5835);
+        
+
+        marker_27613bdf5c1249a4bd7bee1d0d9dae89.bindPopup(popup_a9076f69b6ef4c76bd7d5d4a58dc5fd4)
+        ;
+
+        
+    
+    
+            var marker_e663e23584164a7ca654b1ffbff71a8d = L.marker(
+                [22.881674955485945, 120.19716164244764],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_91494bd0ef1047f78a159af43b246d48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_674c6a680b01423ca742d252396021b2 = $(`<div id="html_674c6a680b01423ca742d252396021b2" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S4</td></tr><tr><td>EVENTDATE</td><td>20190828</td></tr><tr><td>EVENTTIME</td><td>1500</td></tr><tr><td>LONGITUDE</td><td>120.19710</td></tr><tr><td>LATITUDE</td><td>22.881628</td></tr><tr><td>Temp</td><td>34</td></tr><tr><td>pH</td><td>8.36</td></tr><tr><td>NH3_N</td><td>0.03</td></tr><tr><td>SS</td><td>20</td></tr><tr><td>BOD</td><td>2.91</td></tr><tr><td>COD</td><td>36</td></tr><tr><td>NO3_N</td><td>0.7</td></tr><tr><td>T_P</td><td>8.36</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_91494bd0ef1047f78a159af43b246d48.setContent(html_674c6a680b01423ca742d252396021b2);
+        
+
+        marker_e663e23584164a7ca654b1ffbff71a8d.bindPopup(popup_91494bd0ef1047f78a159af43b246d48)
+        ;
+
+        
+    
+    
+            var marker_6b379d6041fc4f7ea373a2ee0da0e520 = L.marker(
+                [22.885148687234498, 120.20033644894625],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_789a4e822d9048f0a44ba7a7ebdf4d1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7790508f76184289aaa2a9342feff698 = $(`<div id="html_7790508f76184289aaa2a9342feff698" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N2</td></tr><tr><td>EVENTDATE</td><td>20191005</td></tr><tr><td>EVENTTIME</td><td>1030</td></tr><tr><td>LONGITUDE</td><td>120.20020</td></tr><tr><td>LATITUDE</td><td>22.884714</td></tr><tr><td>Temp</td><td>30.3</td></tr><tr><td>pH</td><td>7.72</td></tr><tr><td>NH3_N</td><td>0.17</td></tr><tr><td>SS</td><td>3.5</td></tr><tr><td>BOD</td><td>1.23</td></tr><tr><td>COD</td><td>30</td></tr><tr><td>NO3_N</td><td>0.46</td></tr><tr><td>T_P</td><td>7.72</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_789a4e822d9048f0a44ba7a7ebdf4d1d.setContent(html_7790508f76184289aaa2a9342feff698);
+        
+
+        marker_6b379d6041fc4f7ea373a2ee0da0e520.bindPopup(popup_789a4e822d9048f0a44ba7a7ebdf4d1d)
+        ;
+
+        
+    
+    
+            var marker_953446782d1a4c04b21c1e1da900ff37 = L.marker(
+                [22.886352097017856, 120.18930406625938],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_90fa280282b24db18068d7269406f324 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7de9c2193a744ccaa5dd3dd0c1fd210d = $(`<div id="html_7de9c2193a744ccaa5dd3dd0c1fd210d" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N4</td></tr><tr><td>EVENTDATE</td><td>20191006</td></tr><tr><td>EVENTTIME</td><td>1040</td></tr><tr><td>LONGITUDE</td><td>120.18908</td></tr><tr><td>LATITUDE</td><td>22.886012</td></tr><tr><td>Temp</td><td>31.7</td></tr><tr><td>pH</td><td>7.36</td></tr><tr><td>NH3_N</td><td>2.75</td></tr><tr><td>SS</td><td>52.5</td></tr><tr><td>BOD</td><td>9.8</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.63</td></tr><tr><td>T_P</td><td>7.36</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_90fa280282b24db18068d7269406f324.setContent(html_7de9c2193a744ccaa5dd3dd0c1fd210d);
+        
+
+        marker_953446782d1a4c04b21c1e1da900ff37.bindPopup(popup_90fa280282b24db18068d7269406f324)
+        ;
+
+        
+    
+    
+            var marker_c9537d75828d40eb845743050f8da1a5 = L.marker(
+                [22.88875314204418, 120.1952970263162],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_6dbdc6418074467e89cfe1c1632d0629 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f655f1955c1e49d783792791f4c54150 = $(`<div id="html_f655f1955c1e49d783792791f4c54150" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>N5</td></tr><tr><td>EVENTDATE</td><td>20191007</td></tr><tr><td>EVENTTIME</td><td>1300</td></tr><tr><td>LONGITUDE</td><td>120.19540</td></tr><tr><td>LATITUDE</td><td>22.888843</td></tr><tr><td>Temp</td><td>32.3</td></tr><tr><td>pH</td><td>6.28</td></tr><tr><td>NH3_N</td><td>0.05</td></tr><tr><td>SS</td><td>4.5</td></tr><tr><td>BOD</td><td>1.73</td></tr><tr><td>COD</td><td>18</td></tr><tr><td>NO3_N</td><td>0.23</td></tr><tr><td>T_P</td><td>6.28</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_6dbdc6418074467e89cfe1c1632d0629.setContent(html_f655f1955c1e49d783792791f4c54150);
+        
+
+        marker_c9537d75828d40eb845743050f8da1a5.bindPopup(popup_6dbdc6418074467e89cfe1c1632d0629)
+        ;
+
+        
+    
+    
+            var marker_c7d7ab3627ba407192980bd4481c1f54 = L.marker(
+                [22.880042051311904, 120.19703345495445],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_58b30217be404db0bcc799753342ad41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77e3d275bd944a43adb94bff7386627b = $(`<div id="html_77e3d275bd944a43adb94bff7386627b" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S2</td></tr><tr><td>EVENTDATE</td><td>20191008</td></tr><tr><td>EVENTTIME</td><td>1400</td></tr><tr><td>LONGITUDE</td><td>120.19731</td></tr><tr><td>LATITUDE</td><td>22.879823</td></tr><tr><td>Temp</td><td>35.9</td></tr><tr><td>pH</td><td>6.47</td></tr><tr><td>NH3_N</td><td>1.63</td></tr><tr><td>SS</td><td>190</td></tr><tr><td>BOD</td><td>2.33</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.7</td></tr><tr><td>T_P</td><td>6.47</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_58b30217be404db0bcc799753342ad41.setContent(html_77e3d275bd944a43adb94bff7386627b);
+        
+
+        marker_c7d7ab3627ba407192980bd4481c1f54.bindPopup(popup_58b30217be404db0bcc799753342ad41)
+        ;
+
+        
+    
+    
+            var marker_37b426723baa4038898911f9b5c69629 = L.marker(
+                [22.87864014132806, 120.19393238255711],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_862606912c484235b9e398c7f90b3bea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ba9903d78564246a414aeaa4e4595a9 = $(`<div id="html_7ba9903d78564246a414aeaa4e4595a9" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S3</td></tr><tr><td>EVENTDATE</td><td>20191009</td></tr><tr><td>EVENTTIME</td><td>1430</td></tr><tr><td>LONGITUDE</td><td>120.19351</td></tr><tr><td>LATITUDE</td><td>22.878900</td></tr><tr><td>Temp</td><td>31.2</td></tr><tr><td>pH</td><td>6.46</td></tr><tr><td>NH3_N</td><td>0.79</td></tr><tr><td>SS</td><td>104.5</td></tr><tr><td>BOD</td><td>2.16</td></tr><tr><td>COD</td><td>0</td></tr><tr><td>NO3_N</td><td>0.7</td></tr><tr><td>T_P</td><td>6.46</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_862606912c484235b9e398c7f90b3bea.setContent(html_7ba9903d78564246a414aeaa4e4595a9);
+        
+
+        marker_37b426723baa4038898911f9b5c69629.bindPopup(popup_862606912c484235b9e398c7f90b3bea)
+        ;
+
+        
+    
+    
+            var marker_1c83bc66f5c94dbfae75996997f7cae7 = L.marker(
+                [22.881248912233605, 120.19684750315469],
+                {}
+            ).addTo(map_732d433bb1224ae08aa350a2f2c230ed);
+        
+    
+        var popup_6198ab55391c4966ad0124346573c199 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6ca9d891ff84307a95667936ee44264 = $(`<div id="html_b6ca9d891ff84307a95667936ee44264" style="width: 100.0%; height: 100.0%;"><table border=1><tr><td>S_NAME</td><td>S4</td></tr><tr><td>EVENTDATE</td><td>20191010</td></tr><tr><td>EVENTTIME</td><td>1500</td></tr><tr><td>LONGITUDE</td><td>120.19710</td></tr><tr><td>LATITUDE</td><td>22.881628</td></tr><tr><td>Temp</td><td>31.5</td></tr><tr><td>pH</td><td>6.93</td></tr><tr><td>NH3_N</td><td>0.09</td></tr><tr><td>SS</td><td>10.5</td></tr><tr><td>BOD</td><td>2.66</td></tr><tr><td>COD</td><td>26</td></tr><tr><td>NO3_N</td><td>0.3</td></tr><tr><td>T_P</td><td>6.93</td></tr><tr><td>Investigator</td><td>童淑珠</td></tr></table></div>`)[0];
+            popup_6198ab55391c4966ad0124346573c199.setContent(html_b6ca9d891ff84307a95667936ee44264);
+        
+
+        marker_1c83bc66f5c94dbfae75996997f7cae7.bindPopup(popup_6198ab55391c4966ad0124346573c199)
+        ;
+
+        
+    
+</script>

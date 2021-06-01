@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=DHT11
+Exec=/usr/bin/python3 /home/pi/code/dht11_mqtt.py
