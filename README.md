@@ -18,9 +18,9 @@
 
 * 如何燒錄OS到MicroSD卡上？
 * 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
-* 找不到預設的域名(raspberrypi.local)怎麼辦？
+* [找不到預設的域名(raspberrypi.local)怎麼辦？](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)
 * SSH連線(使用內建SSH或puTTY)
-* SCP的使用(拷貝資料到RPi上面)
+* [SCP的使用(拷貝資料到RPi上面)](https://www.raspberrypi.org/documentation/remote-access/ssh/scp.md)
 * 遠端開發(Remote Development)
 * 從RPi發送Line Notify 訊息
 * VNC連線(圖形化介面)
