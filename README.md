@@ -30,7 +30,7 @@
 * [GPIO簡介](https://www.raspberrypi.org/documentation/usage/gpio)
 * 使用 DHT11, 22 量測溫溼度(安裝adafruit_circuitpython套件)
 
-### 3. 專案實作：
+### 3. 自我挑戰：
 
 * 使用DHT11或DHT22量測溫溼度，透過MQTT送到主控台顯示
 
