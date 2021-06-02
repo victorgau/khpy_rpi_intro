@@ -8,28 +8,28 @@
 
 ## 課程內容：
 
-### 主要連結：
+### 文件瀏覽：
 
 * [Raspberry Pi 官網](https://www.raspberrypi.org/)
 * [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 * [Raspberry Pi Remote Access](https://www.raspberrypi.org/documentation/remote-access/)
 
-### 課程大綱：
+### 知識驗證：
 
-* 課程簡介
-* 燒錄 OS
+* 如何燒錄OS到MicroSD卡上？
 * 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
-* SSH連線 (使用內建SSH或putty)
-* 遠端開發 (Remote Development)
-* 從 RPi 發送 Line Notify 訊息
-* VNC 連線 (圖形化介面)
+* 找不到預設的域名(raspberrypi.local)怎麼辦？
+* SSH連線(使用內建SSH或putty)
+* 遠端開發(Remote Development)
+* 從RPi發送Line Notify 訊息
+* VNC連線(圖形化介面)
 * MQTT簡介
-* 設定發送(Publish)訊息至 MQTT Broker
-* 設定接收(Subscribe)自 MQTT Broker 的訊息
-* [GPIO 簡介](https://www.raspberrypi.org/documentation/usage/gpio)
-* 使用 DHT11, 22 量測溫溼度 (安裝adafruit_circuitpython套件)
+* 設定發送(Publish)訊息至MQTT Broker
+* 設定接收(Subscribe)自MQTT Broker的訊息
+* [GPIO簡介](https://www.raspberrypi.org/documentation/usage/gpio)
+* 使用 DHT11, 22 量測溫溼度(安裝adafruit_circuitpython套件)
 
-### 實作練習：
+### 專案實作：
 
 * 使用DHT11或DHT22量測溫溼度，透過MQTT送到主控台顯示
 
@@ -38,10 +38,9 @@
 * [PuTTY](https://www.putty.org/)
 * [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/)
 * [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
-* [Chrome 上面之後不會有 VNC Viewer App 囉！](https://help.realvnc.com/hc/en-us/articles/360017492037-Product-End-of-Life-EoL-notice-#vnc-viewer-plus-0-0)
+* [Chrome上面之後不會有VNC Viewer App囉！](https://help.realvnc.com/hc/en-us/articles/360017492037-Product-End-of-Life-EoL-notice-#vnc-viewer-plus-0-0)
 * [HiveMQ](https://www.hivemq.com/)
 * [paho-mqtt](https://github.com/eclipse/paho.mqtt.python)
 * [fritzing](https://fritzing.org/)
 * [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
 * [Adafruit CircuitPython DHT Library](https://circuitpython.readthedocs.io/projects/dht/en/latest/index.html)
-
