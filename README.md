@@ -8,13 +8,13 @@
 
 ## 課程內容：
 
-### 1. 文件瀏覽：
+### 1. 文件導覽：
 
 * [Raspberry Pi 官網](https://www.raspberrypi.org/)
 * [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 * [Raspberry Pi Remote Access](https://www.raspberrypi.org/documentation/remote-access/)
 
-### 2. 知識驗證：
+### 2. 實作引導：
 
 * 如何燒錄OS到MicroSD卡上？
 * 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
