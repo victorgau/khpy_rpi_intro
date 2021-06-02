@@ -8,13 +8,13 @@
 
 ## 課程內容：
 
-### 文件瀏覽：
+### 1. 文件瀏覽：
 
 * [Raspberry Pi 官網](https://www.raspberrypi.org/)
 * [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 * [Raspberry Pi Remote Access](https://www.raspberrypi.org/documentation/remote-access/)
 
-### 知識驗證：
+### 2. 知識驗證：
 
 * 如何燒錄OS到MicroSD卡上？
 * 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
@@ -30,7 +30,7 @@
 * [GPIO簡介](https://www.raspberrypi.org/documentation/usage/gpio)
 * 使用 DHT11, 22 量測溫溼度(安裝adafruit_circuitpython套件)
 
-### 專案實作：
+### 3. 專案實作：
 
 * 使用DHT11或DHT22量測溫溼度，透過MQTT送到主控台顯示
 
