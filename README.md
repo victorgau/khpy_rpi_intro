@@ -19,10 +19,10 @@
 
 * [如何燒錄OS到MicroSD卡上？](https://www.raspberrypi.org/software/)
 * 如果有螢幕、鍵盤、滑鼠，可以接上RPi然後接上電源使用。
-* [安裝Visual Studio Code](https://code.visualstudio.com/)
 * 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
 * [找不到預設的域名(raspberrypi.local)怎麼辦？](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)
 * SSH連線(使用內建SSH或puTTY)
+* [安裝Visual Studio Code](https://code.visualstudio.com/)
 * [SCP的使用(拷貝資料到RPi上面)](https://www.raspberrypi.org/documentation/remote-access/ssh/scp.md)
 * [遠端開發(Remote Development)](https://code.visualstudio.com/docs/remote/ssh)
 * 從RPi發送Line Notify 訊息
