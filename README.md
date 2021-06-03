@@ -13,22 +13,23 @@
 * [Raspberry Pi 官網](https://www.raspberrypi.org/)
 * [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 * [Raspberry Pi Remote Access](https://www.raspberrypi.org/documentation/remote-access/)
+* [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
 
 ### 2. 實作引導：
 
-* 如何燒錄OS到MicroSD卡上？
+* [如何燒錄OS到MicroSD卡上？](https://www.raspberrypi.org/software/)
 * 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
 * [找不到預設的域名(raspberrypi.local)怎麼辦？](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)
 * SSH連線(使用內建SSH或puTTY)
 * [SCP的使用(拷貝資料到RPi上面)](https://www.raspberrypi.org/documentation/remote-access/ssh/scp.md)
-* 遠端開發(Remote Development)
+* [遠端開發(Remote Development)](https://code.visualstudio.com/docs/remote/ssh)
 * 從RPi發送Line Notify 訊息
-* VNC連線(圖形化介面)
-* MQTT簡介
+* [VNC連線(圖形化介面)](https://www.realvnc.com/en/connect/download/viewer/)
+* [MQTT簡介](https://www.hivemq.com/)
 * 設定發送(Publish)訊息至MQTT Broker
 * 設定接收(Subscribe)自MQTT Broker的訊息
 * [GPIO簡介](https://www.raspberrypi.org/documentation/usage/gpio)
-* 使用 DHT11, 22 量測溫溼度(安裝adafruit_circuitpython套件)
+* 使用 DHT11, 22 量測溫溼度(安裝adafruit_circuitpython_dht套件)
 
 ### 3. 自我挑戰：
 
