@@ -18,6 +18,8 @@
 ### 2. 實作引導：
 
 * [如何燒錄OS到MicroSD卡上？](https://www.raspberrypi.org/software/)
+* 如果有螢幕、鍵盤、滑鼠，可以接上RPi然後接上電源使用。
+* [安裝Visual Studio Code](https://code.visualstudio.com/)
 * 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
 * [找不到預設的域名(raspberrypi.local)怎麼辦？](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)
 * SSH連線(使用內建SSH或puTTY)
@@ -27,9 +29,10 @@
 * [VNC連線(圖形化介面)](https://www.realvnc.com/en/connect/download/viewer/)
 * [MQTT簡介](https://www.hivemq.com/)
 * 設定發送(Publish)訊息至MQTT Broker
+* [安裝VSC的Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 * 設定接收(Subscribe)自MQTT Broker的訊息
 * [GPIO簡介](https://www.raspberrypi.org/documentation/usage/gpio)
-* 使用 DHT11, 22 量測溫溼度(安裝adafruit_circuitpython_dht套件)
+* 使用DHT11, 22量測溫溼度(安裝adafruit_circuitpython_dht套件)
 
 ### 3. 自我挑戰：
 
