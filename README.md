@@ -1,6 +1,6 @@
 # 樹莓派(Raspberry Pi)使用簡介
 
-### 關於唯客學院：
+## 關於唯客學院：
 
 * [唯客學院網址](https://www.victorgau.com)
 * [唯客學院部落格](https://victorgau.com/blog/)
@@ -45,3 +45,5 @@
 * [fritzing](https://fritzing.org/)
 * [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
 * [Adafruit CircuitPython DHT Library](https://circuitpython.readthedocs.io/projects/dht/en/latest/index.html)
+* [10 Free Public MQTT Brokers](https://mntolia.com/10-free-public-private-mqtt-brokers-for-testing-prototyping/)
+* [Beginner’s Guide To Using Paho-MQTT, A Python MQTT Client](https://mntolia.com/mqtt-python-with-paho-mqtt-client/)
