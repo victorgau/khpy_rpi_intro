@@ -8,6 +8,8 @@
 
 ## 課程內容：
 
+
+
 ### 1. 文件導覽：
 
 * [Raspberry Pi 官網](https://www.raspberrypi.org/)
@@ -22,11 +24,11 @@
 * 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
 * [找不到預設的域名(raspberrypi.local)怎麼辦？](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)
 * SSH連線(使用內建SSH或puTTY)
+* [VNC連線(圖形化介面)](https://www.realvnc.com/en/connect/download/viewer/)
 * [安裝Visual Studio Code](https://code.visualstudio.com/)
 * [SCP的使用(拷貝資料到RPi上面)](https://www.raspberrypi.org/documentation/remote-access/ssh/scp.md)
 * [遠端開發(Remote Development)](https://code.visualstudio.com/docs/remote/ssh)
 * 從RPi發送Line Notify 訊息
-* [VNC連線(圖形化介面)](https://www.realvnc.com/en/connect/download/viewer/)
 * [MQTT簡介](https://www.hivemq.com/)
 * 設定發送(Publish)訊息至MQTT Broker
 * [安裝VSC的Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
