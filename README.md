@@ -20,8 +20,11 @@
 ### 2. 實作引導：
 
 * [如何燒錄OS到MicroSD卡上？](https://www.raspberrypi.org/software/)
-* 如果有螢幕、鍵盤、滑鼠，可以接上RPi然後接上電源使用。
-* 沒有鍵盤和螢幕要怎麼連線 (Headless Connection)？
+* 如果有螢幕、鍵盤、滑鼠，可以接上RPi然後插上電源使用看看。
+* 沒有鍵盤、滑鼠和螢幕要怎麼連線 (Headless Connection)？
+  * 預設域名：raspberrypi.local
+  * 預設帳號：pi
+  * 預設密碼：raspberry
 * [找不到預設的域名(raspberrypi.local)怎麼辦？](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)
 * SSH連線(使用內建SSH或puTTY)
 * [VNC連線(圖形化介面)](https://www.realvnc.com/en/connect/download/viewer/)
