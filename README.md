@@ -2,9 +2,9 @@
 
 ## 關於唯客學院：
 
-* [唯客學院網址](https://www.victorgau.com)
-* [唯客學院部落格](https://victorgau.com/blog/)
-* [高雄Python學院粉絲團](https://www.facebook.com/KHPYAcademy/)
+* [唯客學院網址](http://www.victorgau.com)
+* [唯客學院粉絲團](https://www.facebook.com/KHPYAcademy/)
+* [唯客學院部線上課程](https://khpy.teachable.com)
 
 ## 課程內容：
 
@@ -13,6 +13,7 @@
 ### 1. 文件導覽：
 
 * [Raspberry Pi 官網](https://www.raspberrypi.org/)
+* [Raspberry Projects](https://projects.raspberrypi.org/)
 * [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 * [Raspberry Pi Remote Access](https://www.raspberrypi.org/documentation/remote-access/)
 * [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh)
