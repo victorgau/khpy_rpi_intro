@@ -4,10 +4,9 @@
 
 * [唯客學院網址](http://www.victorgau.com)
 * [唯客學院粉絲團](https://www.facebook.com/KHPYAcademy/)
-* [唯客學院部線上課程](https://khpy.teachable.com)
+* [唯客學院線上課程](https://khpy.teachable.com)
 
 ## 課程內容：
-
 
 
 ### 1. 文件導覽：
@@ -39,10 +38,13 @@
 * 設定接收(Subscribe)自MQTT Broker的訊息
 * [GPIO簡介](https://www.raspberrypi.org/documentation/usage/gpio)
 * 使用DHT11, 22量測溫溼度(安裝adafruit_circuitpython_dht套件)
+* 用 RPi Camera 擷取影像
+* 用 RPi Camera 做影音串流
 
 ### 3. 自我挑戰：
 
-* 使用DHT11或DHT22量測溫溼度，透過MQTT送到主控台顯示
+* 使用DHT11或DHT22量測溫溼度，透過MQTT送到主控台顯示。
+* 使用 raspivid 做影音串流，並在筆電上用 opencv 讀取串流影片下來做分析。
 
 ### 相關連結：
 
