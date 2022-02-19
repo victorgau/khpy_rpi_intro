@@ -8,7 +8,7 @@
 
 ## 課程內容：
 
-### 免費影片教學
+### 影片連結
 
 * [樹莓派簡介](https://www.youtube.com/playlist?list=PLj4JWjo5dOC6Ec1GVeNoOMWilvKt99LlU)
 
