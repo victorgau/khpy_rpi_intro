@@ -2,12 +2,15 @@
 
 ## 關於唯客學院：
 
-* [唯客學院網址](http://www.victorgau.com)
+* [唯客學院網址](http://www.vcdemy.com)
 * [唯客學院粉絲團](https://www.facebook.com/KHPYAcademy/)
 * [唯客學院線上課程](https://khpy.teachable.com)
 
 ## 課程內容：
 
+### 免費影片教學
+
+* [樹莓派簡介](https://www.youtube.com/playlist?list=PLj4JWjo5dOC6Ec1GVeNoOMWilvKt99LlU)
 
 ### 1. 文件導覽：
 
