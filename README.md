@@ -6,11 +6,11 @@
 * [唯客學院粉絲團](https://www.facebook.com/KHPYAcademy/)
 * [唯客學院線上課程](https://khpy.teachable.com)
 
-## 課程內容：
-
-### 影片連結
+## 影片連結
 
 * [樹莓派簡介](https://www.youtube.com/playlist?list=PLj4JWjo5dOC6Ec1GVeNoOMWilvKt99LlU)
+
+## 課程內容：
 
 ### 1. 文件導覽：
 
